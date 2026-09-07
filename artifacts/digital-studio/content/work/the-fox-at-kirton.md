@@ -6,7 +6,7 @@ website: "thefoxkirton.co.uk"
 ---
 ### The brief
 
-The Fox at Kirton needed a website with enough warmth and appetite to do the pub justice, while making the practical things — food, rooms and bookings — easy to find.
+The Fox at Kirton needed a website with enough warmth and appetite to do the pub justice, while making the practical things, including food, rooms and bookings, easy to find.
 
 ### The useful bit
 

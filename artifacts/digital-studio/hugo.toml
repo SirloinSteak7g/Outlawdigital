@@ -1,6 +1,6 @@
 baseURL = "https://outlawdigital.co.uk/"
 languageCode = "en-gb"
-title = "Outlaw Digital — Digital systems for growing businesses"
+title = "Outlaw Digital · Digital systems for growing businesses"
 enableRobotsTXT = true
 enableGitInfo = false
 disableKinds = ["taxonomy", "term"]

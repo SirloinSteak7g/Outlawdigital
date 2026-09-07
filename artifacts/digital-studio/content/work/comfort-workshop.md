@@ -40,7 +40,7 @@ Behind the website sits a custom business system built around the way Comfort Wo
 
 The system takes a customer from **Enquiry → Consultation → Quote → Order → Production → Quality Control → Delivery → Aftercare**.
 
-That replaces a mixture of spreadsheets, paper forms, disconnected software and manual admin with one shared view of what needs to happen next — for the customer, the sales team, the office and the workshop.
+That replaces a mixture of spreadsheets, paper forms, disconnected software and manual admin with one shared view of what needs to happen next for the customer, the sales team, the office and the workshop.
 
 ### The result
 
