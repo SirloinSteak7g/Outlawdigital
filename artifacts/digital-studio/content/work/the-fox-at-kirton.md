@@ -6,11 +6,11 @@ website: "thefoxkirton.co.uk"
 ---
 ### The brief
 
-The Fox at Kirton needed a website with enough warmth and appetite to do the pub justice, while making the practical things, including food, rooms and bookings, easy to find.
+The Fox at Kirton needed a website with enough warmth and appetite to do the pub justice, while making the practical things, including food, menus, events and bookings, easy to find.
 
 ### The useful bit
 
-I built a flexible content system with a private manager login, so the team can update menus, add events and keep opening times, rooms and other important information current without waiting for a developer. Visitors always get the latest version of the pub’s plans.
+I built a flexible content system with a private manager login, so the team can update menus, add events and keep opening times and other important information current without waiting for a developer. Visitors always get the latest version of the pub’s plans.
 
 ### The result
 
