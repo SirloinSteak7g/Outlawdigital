@@ -1,17 +1,17 @@
 ---
 title: "Riser Recliner Directory"
-description: "A useful directory that helps people compare a difficult decision."
+description: "A UK-wide retailer directory helping people find and compare local riser recliner specialists."
 colour: "mint"
 website: "riserreclinerdirectory.co.uk"
 ---
 ### The brief
 
-The Riser Recliner Directory started with a simple question: how do you help someone compare an important, highly personal purchase without adding more noise?
+The Riser Recliner Directory needed to make a difficult, location-led purchase easier to navigate. People need to search by town or postcode, find relevant local shops and understand what each retailer can offer before making contact.
 
 ### The useful bit
 
-I designed a structured search experience around the questions people can answer: room, support, fit, budget and need. I then built a content model that makes the information useful to people and discoverable in search.
+I designed a UK-wide directory where people can search nearby shops by location or postcode, browse retailer listings and compare detailed profiles. Each profile can show an address, phone number, website, opening hours, available services and practical features such as home demonstrations, delivery, installation, warranties, accessibility and chair customisation. Retailers can manage their own listing data, while paid boosts let shops appear at the top of listings in their county.
 
 ### The result
 
-A directory that behaves less like a list and more like a helpful guide.
+One useful route from finding local mobility specialists to choosing who to call or visit, with a database-backed listing model and a clear commercial path for retailer promotion.
