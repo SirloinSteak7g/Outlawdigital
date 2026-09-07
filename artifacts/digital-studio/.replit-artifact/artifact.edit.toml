@@ -1,0 +1,25 @@
+kind = "web"
+previewPath = "/"
+title = "Digital Studio Website"
+description = "A premium Hugo-powered marketing website for a small digital studio offering websites, custom business systems, branding, and local SEO."
+version = "1.0.0"
+id = "artifacts/digital-studio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20990
+
+[services.development]
+run = "pnpm --filter @workspace/digital-studio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/digital-studio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/digital-studio/dist/public"
+
+
+[services.env]
+PORT = "20990"
+BASE_PATH = "/"
