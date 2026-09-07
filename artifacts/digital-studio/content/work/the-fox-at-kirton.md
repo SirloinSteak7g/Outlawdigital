@@ -2,6 +2,7 @@
 title: "The Fox at Kirton"
 description: "A lively online table for a pub with a lot to say for itself."
 colour: "yellow"
+website: "thefoxkirton.co.uk"
 ---
 ### The brief
 

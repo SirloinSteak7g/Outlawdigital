@@ -2,6 +2,7 @@
 title: "Rennix Automotive"
 description: "A sharper digital workshop for a business built on precision."
 colour: "graphite"
+website: "rennixautomotive.co.uk"
 ---
 ### The brief
 

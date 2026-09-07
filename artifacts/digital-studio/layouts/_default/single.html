@@ -3,7 +3,7 @@
   <article class="work-page">
     <div class="shell page-hero"><p class="eyebrow">Selected work</p><div class="page-hero-grid"><h1>{{ .Title }}</h1><p class="page-hero-copy">{{ .Params.description }}</p></div></div>
     <div class="shell work-detail">
-      {{ if .Params.website }}
+      {{ if .Params.mock_headline }}
         <div class="work-detail-preview">{{ partial "browser.html" (dict "label" (printf "%s / home" .Params.website) "theme" "cream" "brand" .Params.mock_brand "brandClass" .Params.mock_brand_class "headline" .Params.mock_headline "nav" "chairs &nbsp;&nbsp; pricing &nbsp;&nbsp; home demo") }}</div>
       {{ else }}
         <div class="work-entry-art project-{{ .Params.colour }}"><div class="project-ui"><i></i><i></i><i></i></div><strong>{{ .Title }}</strong></div>

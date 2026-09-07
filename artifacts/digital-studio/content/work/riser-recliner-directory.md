@@ -2,6 +2,7 @@
 title: "Riser Recliner Directory"
 description: "A useful directory that helps people compare a difficult decision."
 colour: "mint"
+website: "riserreclinerdirectory.co.uk"
 ---
 ### The brief
 

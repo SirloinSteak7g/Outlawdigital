@@ -2,6 +2,7 @@
 title: "The Specialist Seating Company"
 description: "Complex products made simple for families, clinicians and commissioners."
 colour: "blue"
+website: "specialistseating.co.uk"
 ---
 ### The brief
 
