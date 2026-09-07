@@ -8,6 +8,7 @@
     <div class="footer-meta">
       <p>outlaw.digital is an independent digital studio for small businesses with big plans.</p>
       <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+      <a href="{{ .Site.Params.phoneHref | safeURL }}">{{ .Site.Params.phone }}</a>
       <span>{{ .Site.Params.location }}</span>
     </div>
   </div>

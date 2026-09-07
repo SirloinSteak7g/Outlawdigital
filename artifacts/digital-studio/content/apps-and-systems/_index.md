@@ -1,6 +1,8 @@
 ---
 title: "Digital systems that give time back."
 description: "Small, focused tools that turn a messy handover into a repeatable way of working."
+seo_title: "Custom Business Systems in North Nottinghamshire | outlaw.digital"
+seo_description: "Custom apps, portals and internal business systems for North Nottinghamshire businesses, replacing spreadsheets and manual admin with better workflows."
 eyebrow: "02 / Apps & systems"
 number: "02"
 sidebar: "Build the<br><em>missing piece.</em>"
@@ -10,7 +12,7 @@ deliverables:
   - "Automated documents and notifications"
   - "Integrations with tools you already use"
 ---
-No bloated software suite. We map the friction in your day, then build the right-sized system around your real process, including forms, PDFs and customer records.
+No bloated software suite. I map the friction in your day, then build the right-sized system around your real process, including forms, PDFs and customer records for North Nottinghamshire businesses.
 
 The best tool might be a smart enquiry flow. It might be a customer portal, a quoting calculator or a small internal dashboard. The shape comes from the work, not from a feature list.
 

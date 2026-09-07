@@ -1,32 +1,53 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+{{- $pageDescription := .Params.seo_description | default .Params.description | default .Site.Params.description -}}
+{{- $pageTitle := .Params.seo_title | default (printf "%s | %s" .Title .Site.Params.studioName) -}}
+{{- $siteURL := .Site.Params.siteURL -}}
+{{- $pageURL := printf "%s%s" $siteURL .RelPermalink -}}
+{{- $imageURL := printf "%s%s" $siteURL .Site.Params.ogImage -}}
+<meta name="description" content="{{ $pageDescription }}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="{{ .Site.Params.studioName }}">
 <meta name="theme-color" content="#f2eee6">
+<meta name="geo.region" content="GB-NTT">
+<meta name="geo.placename" content="North Nottinghamshire">
 <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
-<link rel="canonical" href="{{ .Permalink }}">
-<meta property="og:site_name" content="{{ .Site.Title }}">
-<meta property="og:title" content="{{ .Title }} · {{ .Site.Params.studioName }}">
-<meta property="og:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
-<meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:image" content="{{ .Site.Params.ogImage | absURL }}">
+<link rel="canonical" href="{{ $pageURL }}">
+<meta property="og:site_name" content="{{ .Site.Params.studioName }}">
+<meta property="og:title" content="{{ $pageTitle }}">
+<meta property="og:description" content="{{ $pageDescription }}">
+<meta property="og:type" content="{{ if or .IsHome (not (eq .Section "work")) }}website{{ else }}article{{ end }}">
+<meta property="og:url" content="{{ $pageURL }}">
+<meta property="og:locale" content="en_GB">
+<meta property="og:image" content="{{ $imageURL }}">
+<meta property="og:image:alt" content="outlaw.digital, an independent digital studio in North Nottinghamshire">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ .Title }} · {{ .Site.Params.studioName }}">
-<meta name="twitter:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-<title>{{ .Title }} · {{ .Site.Params.studioName }}</title>
+<meta name="twitter:title" content="{{ $pageTitle }}">
+<meta name="twitter:description" content="{{ $pageDescription }}">
+<title>{{ $pageTitle }}</title>
 {{ if .IsHome }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  "name": "{{ .Site.Params.studioName }}",
-  "description": "{{ .Site.Params.description }}",
-  "url": "{{ .Site.BaseURL }}",
-  "email": "{{ .Site.Params.email }}",
-  "areaServed": "United Kingdom",
-  "founder": {"@type": "Person", "name": "Outlaw Digital"}
-}
-</script>
+  {{- $businessID := printf "%s#business" $siteURL -}}
+  {{- $business := dict "@type" "ProfessionalService" "@id" $businessID "name" .Site.Params.studioName "description" .Site.Params.description "url" $siteURL "email" .Site.Params.email "telephone" .Site.Params.phone "areaServed" .Site.Params.serviceAreas "serviceType" (slice "Web design" "Custom business systems" "Branding" "Local SEO") -}}
+  {{- $website := dict "@type" "WebSite" "@id" (printf "%s#website" $siteURL) "name" .Site.Params.studioName "url" $siteURL "description" .Site.Params.description "publisher" (dict "@id" $businessID) -}}
+  {{- $graph := dict "@context" "https://schema.org" "@graph" (slice $business $website) -}}
+<script type="application/ld+json">{{ $graph | jsonify | safeJS }}</script>
+{{ else }}
+  {{- $pageSchema := dict "@context" "https://schema.org" "@type" "WebPage" "@id" (printf "%s#webpage" $pageURL) "url" $pageURL "name" $pageTitle "description" $pageDescription "isPartOf" (dict "@id" (printf "%s#website" $siteURL)) -}}
+<script type="application/ld+json">{{ $pageSchema | jsonify | safeJS }}</script>
+  {{- $breadcrumbItems := slice (dict "@type" "ListItem" "position" 1 "name" "Home" "item" (printf "%s/" $siteURL)) -}}
+  {{- if .Section -}}
+    {{- $sectionPage := .Site.GetPage (printf "/%s" .Section) -}}
+    {{- if $sectionPage -}}
+      {{- $breadcrumbItems = $breadcrumbItems | append (dict "@type" "ListItem" "position" 2 "name" $sectionPage.Title "item" (printf "%s%s" $siteURL $sectionPage.RelPermalink)) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if and (not .IsSection) (not .IsHome) -}}
+    {{- $position := 2 -}}
+    {{- if .Section }}{{ $position = 3 }}{{ end -}}
+    {{- $breadcrumbItems = $breadcrumbItems | append (dict "@type" "ListItem" "position" $position "name" .Title "item" $pageURL) -}}
+  {{- end -}}
+  {{- $breadcrumbs := dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $breadcrumbItems -}}
+<script type="application/ld+json">{{ $breadcrumbs | jsonify | safeJS }}</script>
 {{ end }}
 {{ $style := resources.Get "css/main.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">

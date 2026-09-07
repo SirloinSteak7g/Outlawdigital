@@ -1,57 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>/about/</loc>
+&lt;?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
+    <loc>https://outlawdigital.co.uk/about/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url><url>
-    <loc>/branding/</loc>
+    <loc>https://outlawdigital.co.uk/branding/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url><url>
-    <loc>/work/comfort-workshop/</loc>
+    <loc>https://outlawdigital.co.uk/work/comfort-workshop/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url><url>
-    <loc>/</loc>
+    <loc>https://outlawdigital.co.uk/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>1.0</priority>
   </url><url>
-    <loc>/apps-and-systems/</loc>
+    <loc>https://outlawdigital.co.uk/apps-and-systems/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url><url>
-    <loc>/local-seo/</loc>
+    <loc>https://outlawdigital.co.uk/local-seo/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url><url>
-    <loc>/work/rennix-automotive/</loc>
+    <loc>https://outlawdigital.co.uk/work/rennix-automotive/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url><url>
-    <loc>/work/riser-recliner-directory/</loc>
+    <loc>https://outlawdigital.co.uk/work/riser-recliner-directory/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url><url>
-    <loc>/work/</loc>
+    <loc>https://outlawdigital.co.uk/work/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url><url>
-    <loc>/contact/</loc>
+    <loc>https://outlawdigital.co.uk/contact/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
   </url><url>
-    <loc>/work/the-fox-at-kirton/</loc>
+    <loc>https://outlawdigital.co.uk/work/the-fox-at-kirton/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url><url>
-    <loc>/work/specialist-seating/</loc>
+    <loc>https://outlawdigital.co.uk/work/specialist-seating/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url><url>
-    <loc>/websites/</loc>
+    <loc>https://outlawdigital.co.uk/websites/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-</urlset>
+    <priority>0.8</priority>
+  </url></urlset>

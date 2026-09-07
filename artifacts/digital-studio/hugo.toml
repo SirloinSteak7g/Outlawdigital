@@ -1,17 +1,21 @@
 baseURL = "https://outlawdigital.co.uk/"
 languageCode = "en-gb"
-title = "Outlaw Digital · Digital systems for growing businesses"
+title = "outlaw.digital | Digital systems for growing businesses"
 enableRobotsTXT = true
 enableGitInfo = false
 disableKinds = ["taxonomy", "term"]
 
 [params]
-  studioName = "Outlaw Digital"
-  studioDescriptor = "Independent digital studio"
+  studioName = "outlaw.digital"
+  studioDescriptor = "Independent digital studio in North Nottinghamshire"
   email = "hello@outlawdigital.co.uk"
-  location = "Lincolnshire · working everywhere"
-  description = "Outlaw Digital designs brands, websites and digital systems that make small businesses easier to choose, run and grow."
+  phone = "01157 750 587"
+  phoneHref = "tel:01157750587"
+  location = "North Nottinghamshire · working across the UK"
+  description = "outlaw.digital is an independent digital studio in North Nottinghamshire, creating websites, custom business systems, branding and local SEO for small businesses."
   ogImage = "/og-image.svg"
+  siteURL = "https://outlawdigital.co.uk"
+  serviceAreas = ["North Nottinghamshire", "Bassetlaw", "Worksop", "Retford", "Nottinghamshire", "United Kingdom"]
 
 [markup]
   [markup.goldmark]
