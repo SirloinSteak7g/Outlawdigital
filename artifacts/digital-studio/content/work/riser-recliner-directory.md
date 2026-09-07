@@ -6,7 +6,7 @@ website: "riserreclinerdirectory.co.uk"
 ---
 ### The brief
 
-The Riser Recliner Directory needed to make a difficult, location-led purchase easier to navigate. People need to search by town or postcode, find relevant local shops and understand what each retailer can offer before making contact.
+Riser recliner chairs are sold through several different kinds of shops, which can make it difficult for people to know where to find one in their local area. The Riser Recliner Directory needed to make that location-led purchase easier to navigate, helping people search by town or postcode, find relevant local shops and understand what each retailer can offer before making contact.
 
 ### The useful bit
 
