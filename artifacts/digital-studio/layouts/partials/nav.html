@@ -1,0 +1,20 @@
+<header class="site-header" data-header>
+  <div class="shell nav-wrap">
+    <a class="wordmark" href="{{ "/" | relURL }}" aria-label="Northline Studio home">
+      <span class="wordmark-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>northline<span class="wordmark-dot">.</span></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-menu-toggle>
+      <span>Menu</span><span class="menu-lines" aria-hidden="true"><i></i><i></i></span>
+    </button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation" data-menu>
+      <a href="{{ "/websites/" | relURL }}" class="{{ if eq .Section "websites" }}is-active{{ end }}">Websites</a>
+      <a href="{{ "/apps-and-systems/" | relURL }}" class="{{ if eq .Section "apps-and-systems" }}is-active{{ end }}">Apps &amp; systems</a>
+      <a href="{{ "/branding/" | relURL }}" class="{{ if eq .Section "branding" }}is-active{{ end }}">Branding</a>
+      <a href="{{ "/local-seo/" | relURL }}" class="{{ if eq .Section "local-seo" }}is-active{{ end }}">Local SEO</a>
+      <a href="{{ "/work/" | relURL }}" class="{{ if eq .Section "work" }}is-active{{ end }}">Work</a>
+      <a href="{{ "/about/" | relURL }}" class="{{ if eq .Section "about" }}is-active{{ end }}">About</a>
+      <a class="nav-enquire" href="{{ "/contact/" | relURL }}">Start a project <span aria-hidden="true">↗</span></a>
+    </nav>
+  </div>
+</header>

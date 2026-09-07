@@ -1,0 +1,90 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="shell hero-grid">
+    <div>
+      <p class="eyebrow" data-reveal>Independent digital studio · Lincolnshire &amp; beyond</p>
+      <h1 data-reveal>Make the whole<br>thing <em>work.</em></h1>
+      <p class="hero-intro" data-reveal>Websites, brands and digital systems built around your business — not the other way around.</p>
+      <div class="hero-actions" data-reveal>
+        <a class="button" href="{{ "/contact/" | relURL }}">Tell me what’s happening <span aria-hidden="true">↗</span></a>
+        <a class="arrow-link" href="#services">See what I do <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+    <div data-reveal>
+      {{ partial "browser.html" (dict "label" "northline.studio / work" "theme" "blue" "headline" "A better<br>digital layer<br>for business.") }}
+    </div>
+  </div>
+  <div class="hero-shape" aria-hidden="true"></div>
+  <span class="hero-note">Scroll to explore / 01—08</span>
+</section>
+<div class="ticker" aria-label="Northline services">
+  <div class="ticker-track"><span>Websites <b>—</b></span><span>Apps &amp; systems <b>—</b></span><span>Branding <b>—</b></span><span>Local SEO <b>—</b></span><span>Websites <b>—</b></span><span>Apps &amp; systems <b>—</b></span><span>Branding <b>—</b></span><span>Local SEO <b>—</b></span></div>
+</div>
+
+<section class="services" id="services">
+  <div class="shell">
+    {{ partial "section-intro.html" (dict "eyebrow" "The digital layer" "title" "One studio.<br><em>Four ways in.</em>" "copy" "The visible stuff and the behind-the-scenes stuff, considered as one connected system.") }}
+    <div class="service-list">
+      {{ range .Site.Data.services }}
+      <a class="service-row" href="{{ .link | relURL }}" data-reveal>
+        <span class="number">{{ .number }}</span><h3>{{ .short }}</h3><p>{{ .description }}</p><span class="service-arrow" aria-hidden="true">↗</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="showcase">
+  <div class="shell">
+    <div class="showcase-intro">
+      {{ partial "section-intro.html" (dict "eyebrow" "Selected work" "title" "Built for the<br><em>real world.</em>") }}
+      <p class="section-copy">A handful of businesses I’ve helped become easier to choose, easier to run and easier to find.</p>
+    </div>
+    <div class="project-grid">
+      {{ range .Site.Data.projects }}{{ partial "project-card.html" . }}{{ end }}
+    </div>
+    <a class="arrow-link light" href="{{ "/work/" | relURL }}" style="margin-top:46px;display:inline-block">View all work <span aria-hidden="true">↗</span></a>
+  </div>
+</section>
+
+<section class="systems-section">
+  <div class="shell systems-layout">
+    <div>
+      <p class="eyebrow">Beyond the brochure</p>
+      <h2>Your website can be the <em>busy part</em> of the business.</h2>
+      <p class="section-copy">It can capture a lead, generate a quote, take a booking, manage a customer, collect a form, create a PDF and start the next task — before anyone on your team opens their inbox.</p>
+      <a class="arrow-link" href="{{ "/apps-and-systems/" | relURL }}">See apps &amp; systems <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="system-list">
+      <div class="system-item" data-reveal><span>01</span><div><h3>Capture the right enquiry</h3><p>Ask better questions up front, so every conversation starts further along.</p></div></div>
+      <div class="system-item" data-reveal><span>02</span><div><h3>Turn detail into a quote</h3><p>Give customers a useful answer while the context is still fresh.</p></div></div>
+      <div class="system-item" data-reveal><span>03</span><div><h3>Keep the handover moving</h3><p>Route information to the person, tool or next step that needs it.</p></div></div>
+      <div class="system-item" data-reveal><span>04</span><div><h3>Make the repeatable, repeatable</h3><p>Build a small system around the work you do every single week.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="transformation">
+  <div class="shell">
+    <div class="transform-head"><h2>From <em>friction</em><br>to flow.</h2><p class="section-copy">The best digital work changes the shape of a day, not just the shape of a screen.</p></div>
+    <div class="transformations">
+      <article class="transform-card" data-reveal><div class="transform-label"><span>Before</span><span>Enquiries</span></div><h3>“Can you send that<br>over again?”</h3><span class="transform-arrow">↘</span></article>
+      <article class="transform-card" data-reveal><div class="transform-label"><span>After</span><span>Enquiries</span></div><h3>Every detail arrives<br>in the right place.</h3><span class="transform-arrow">↗</span></article>
+      <article class="transform-card" data-reveal><div class="transform-label"><span>Before</span><span>Visibility</span></div><h3>Good work,<br>hard to find.</h3><span class="transform-arrow">↘</span></article>
+      <article class="transform-card" data-reveal><div class="transform-label"><span>After</span><span>Visibility</span></div><h3>Useful, local,<br>easy to choose.</h3><span class="transform-arrow">↗</span></article>
+    </div>
+  </div>
+</section>
+
+<section class="process">
+  <div class="shell">
+    <div class="process-header"><p class="eyebrow">A clear way through</p><h2>Good work is a conversation, not a <em>relay race.</em></h2></div>
+    <div class="process-grid">{{ range .Site.Data.process }}<div class="process-step" data-reveal><span>{{ .step }}</span><div><h3>{{ .title }}</h3><p>{{ .copy }}</p></div></div>{{ end }}</div>
+  </div>
+</section>
+
+<section class="seo-band">
+  <div class="shell seo-layout"><div><p class="eyebrow">Findable by design</p><h2>Be the answer when someone nearby is ready to <em>choose.</em></h2></div><a class="button" href="{{ "/local-seo/" | relURL }}">Explore local SEO <span aria-hidden="true">↗</span></a></div>
+</section>
+{{ partial "cta.html" . }}
+{{ end }}

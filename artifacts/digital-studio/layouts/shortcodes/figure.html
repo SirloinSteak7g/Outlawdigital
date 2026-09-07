@@ -1,0 +1,1 @@
+<figure class="inline-figure"><div class="inline-figure-art {{ .Get "theme" | default "orange" }}"><span>{{ .Get "label" }}</span><strong>{{ .Get "headline" | safeHTML }}</strong></div>{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}</figure>

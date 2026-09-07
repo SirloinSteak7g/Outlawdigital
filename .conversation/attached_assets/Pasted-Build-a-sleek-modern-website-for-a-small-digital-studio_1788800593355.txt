@@ -1,0 +1,489 @@
+Build a sleek, modern website for a small digital studio offering websites, custom apps, CRM systems, business tools, branding, graphic design and local SEO.
+
+The site should feel premium, modern and highly capable, but not like a large corporate agency. It should feel personal, technically strong and design-led.
+
+The main positioning is:
+
+Websites, brands and digital systems built around your business.
+
+The key difference is that the business does more than just build websites. It can also build the systems behind a business, such as CRMs, dashboards, quote tools, booking systems, customer portals, internal apps, digital forms and workflow automation.
+
+The website should show that one person/studio can help with the full digital side of a small business: how it looks, how it works and how customers find it.
+
+SITE STRUCTURE
+
+Main navigation:
+
+Home
+Websites
+Apps & Business Systems
+Branding
+Local SEO
+Work
+About
+Contact
+
+HOME PAGE
+
+1. HERO
+
+Large, clean hero section with strong typography.
+
+Main heading:
+
+Websites, brands and digital systems built around your business.
+
+Supporting copy:
+
+Modern websites, custom software, branding and local SEO for businesses that want to look better, work smarter and generate more enquiries.
+
+Primary CTA:
+Start a Project
+
+Secondary CTA:
+View My Work
+
+The design should immediately feel high-end and modern with subtle animation, smooth transitions and strong use of whitespace.
+
+2. TRUST / PROJECT STRIP
+
+Immediately below the hero, show businesses and projects already worked on.
+
+Examples:
+
+Comfort Workshop
+The Specialist Seating Company
+Rennix Automotive
+The Fox at Kirton
+Riser Recliner Directory
+
+This could be a clean logo strip or horizontally scrolling section.
+
+3. SERVICES
+
+Create four large interactive service cards.
+
+Websites
+Modern, fast, mobile-first websites built to generate enquiries and rank well on Google.
+
+Apps & Business Systems
+Custom CRM systems, dashboards, portals, internal apps, calculators and digital workflows.
+
+Branding
+Logos, brand identities, colour systems, typography, printed material and digital design.
+
+Local SEO
+SEO strategies designed to help local businesses appear when customers search in their area.
+
+Each card should link to its own service page.
+
+4. FEATURED WORK
+
+This should be one of the main visual sections of the homepage.
+
+Use large project cards with strong screenshots and device mock-ups.
+
+Each project should show:
+
+Project name
+Industry
+Services provided
+Short description
+Website screenshot
+Link to case study
+
+Example:
+
+Comfort Workshop
+
+Branding
+Website
+CRM
+Local SEO
+Digital systems
+
+Explain that the project involved much more than a website, including customer management, consultation tools, quoting systems and business workflows.
+
+5. MORE THAN A WEBSITE
+
+Create a visually strong section explaining that websites can become useful business tools.
+
+Heading:
+
+Your website can do more than look good.
+
+Show examples such as:
+
+Capture and qualify leads
+Generate quotes
+Take bookings
+Manage customers
+Create PDFs
+Collect digital forms
+Automate emails
+Manage enquiries
+Provide customer portals
+Connect to other systems
+Manage internal workflows
+
+This section should help distinguish the business from standard website designers.
+
+6. BUSINESS SYSTEM TRANSFORMATION
+
+Create a section showing simple before-and-after examples.
+
+Examples:
+
+Spreadsheet → Custom CRM
+
+Paper form → Digital iPad form
+
+Manual quotation → Automated quote generator
+
+Email enquiries → Lead management system
+
+Paper checklist → Digital inspection system
+
+The purpose of this section is to make custom software understandable to normal small-business owners.
+
+7. PROCESS
+
+Show a simple 5-step process.
+
+01 Understand
+Learn how the business works and what needs improving.
+
+02 Design
+Plan the brand, website, interface and user experience.
+
+03 Build
+Create the website or system and connect the required functionality.
+
+04 Launch
+Configure domains, hosting, analytics, SEO and integrations.
+
+05 Improve
+Continue adding features, pages and improvements as the business grows.
+
+8. LOCAL SEO SECTION
+
+Create a strong section explaining local SEO.
+
+Heading:
+
+Be found when local customers are searching.
+
+Include:
+
+Google Business Profile optimisation
+Keyword research
+Local landing pages
+Technical SEO
+Service pages
+Schema markup
+Search Console
+Competitor research
+Review strategy
+
+CTA:
+Improve My Local Visibility
+
+9. ABOUT SECTION
+
+Keep this personal and simple.
+
+Position the business as a small independent digital studio rather than pretending to be a large agency.
+
+Possible heading:
+
+Small studio. Direct relationship. No agency layers.
+
+Explain that strategy, design and development are handled directly, allowing projects to move quickly and remain flexible.
+
+Also highlight a strong understanding of actual businesses and operations, not just design.
+
+10. FINAL CTA
+
+Large clean section.
+
+Heading:
+
+Got a website, system or business process that could work better?
+
+Supporting text:
+
+Whether you need a new website, a stronger brand or a custom tool to simplify the way your business works, get in touch.
+
+CTA:
+Tell Me About Your Project
+
+WEBSITES PAGE
+
+Create a service page dedicated to website design and development.
+
+Focus on:
+
+Modern custom websites
+Mobile-first design
+Fast load speeds
+SEO
+Conversion-focused layouts
+Contact forms
+Booking systems
+CMS functionality
+Analytics
+Google Search Console
+Local landing pages
+Third-party integrations
+
+Avoid positioning the service as cheap template websites.
+
+The message should be that every website is designed around the business.
+
+Include examples of existing websites and screenshots.
+
+APPS & BUSINESS SYSTEMS PAGE
+
+This should be a major part of the site.
+
+Main heading:
+
+Software built around your business.
+
+Explain that custom tools can replace spreadsheets, paper processes and repetitive admin.
+
+Include examples:
+
+CRM systems
+Customer databases
+Quote generators
+Job management systems
+Booking platforms
+Dashboards
+Customer portals
+Production trackers
+Inspection systems
+Internal apps
+Digital forms
+Automated workflows
+PDF/document generation
+
+Include a visual section showing sample interfaces.
+
+Possible CTA:
+
+Tell Me What You Want To Automate
+
+CRM SYSTEMS SECTION OR PAGE
+
+Explain that custom CRM systems can be created specifically around the client's workflow rather than forcing the business into generic CRM software.
+
+Example flow:
+
+New Lead
+→ Appointment
+→ Quote
+→ Order
+→ Production
+→ Delivery
+→ Aftercare
+
+Show this visually as an animated pipeline.
+
+BRANDING PAGE
+
+Show branding as a complete visual system rather than just logo design.
+
+Include:
+
+Logo design
+Logo variations
+Colour palettes
+Typography
+Brand guidelines
+Icons
+Social media assets
+Print design
+Signage
+Brochures
+Business cards
+Website design
+
+This page should be highly visual.
+
+LOCAL SEO PAGE
+
+Explain how the business helps companies appear for local searches.
+
+Include:
+
+Local keyword research
+Location pages
+Service-area pages
+Google Business Profile
+Google Maps visibility
+On-page SEO
+Technical SEO
+Schema
+Reviews
+Competitor research
+Search Console
+Content strategy
+
+Make the page particularly relevant to local service businesses.
+
+WORK PAGE
+
+Create a visual portfolio grid.
+
+Projects:
+
+Comfort Workshop
+The Specialist Seating Company
+Rennix Automotive
+The Fox at Kirton
+Riser Recliner Directory
+
+Each project should have its own case-study page.
+
+Case-study structure:
+
+Project overview
+The challenge
+What was built
+Design
+Technology/functionality
+SEO or digital strategy
+Screenshots
+Results where available
+
+Focus on explaining the business problem solved rather than just showing visual design.
+
+ABOUT PAGE
+
+Keep this simple and personal.
+
+Explain that the studio combines:
+
+Web development
+Software development
+Business thinking
+Graphic design
+Branding
+SEO
+
+The main advantage is being able to understand a business problem and then design and build the solution rather than only offering one service.
+
+CONTACT PAGE
+
+Keep this very simple.
+
+Fields:
+
+Name
+Business
+Email
+Phone
+What do you need help with?
+
+Options:
+
+Website
+App / Business System
+CRM
+Branding
+Local SEO
+Not sure yet
+
+Project description
+
+CTA:
+Send Project Enquiry
+
+DESIGN DIRECTION
+
+The visual style should be:
+
+Very modern
+Minimal
+Premium
+Clean
+Strong typography
+Lots of whitespace
+Subtle animations
+Smooth scrolling
+High-quality project imagery
+Large screenshots
+Browser mock-ups
+Phone mock-ups
+Interactive UI previews
+Rounded but not overly playful components
+Strong grid layout
+
+Avoid:
+
+Generic agency stock photography
+Overly corporate styling
+Huge amounts of text
+Bright gradients everywhere
+Generic AI-looking graphics
+Cheap template appearance
+Excessive animations
+
+Use actual screenshots and real projects wherever possible.
+
+The website should feel closer to a modern software/product studio than a traditional local web designer.
+
+INTERACTIVE IDEAS
+
+Include subtle interactive features where appropriate:
+
+Animated CRM pipeline
+Hovering browser mock-ups
+Scrolling project screenshots
+Before-and-after business process animations
+Interactive service cards
+Smooth page transitions
+Subtle cursor interactions
+Animated mobile/desktop website previews
+Small looping demos of custom systems
+
+Keep them elegant and fast rather than gimmicky.
+
+SEO STRUCTURE
+
+Build the site with strong technical SEO from the start.
+
+Use semantic HTML.
+Fast performance.
+Optimised images.
+Proper heading hierarchy.
+Schema markup.
+Canonical URLs.
+Sitemap.
+Robots.txt.
+Open Graph metadata.
+Unique page titles and meta descriptions.
+
+The architecture should also allow future location pages such as:
+
+/web-design-nottingham
+/web-design-mansfield
+/web-design-newark
+/web-design-lincoln
+/web-design-derby
+/local-seo-nottingham
+
+Do not create hundreds of thin location pages. The structure should simply support genuinely useful location pages later.
+
+OVERALL MESSAGE
+
+The website should make visitors think:
+
+This person can build my website, improve my brand, help me rank locally and also build custom digital systems if my business needs them.
+
+The strongest differentiator is:
+
+Not just websites.
+
+The studio can design and build the entire digital infrastructure around a small business.

@@ -1,0 +1,20 @@
+{{ define "main" }}
+<section class="contact-page">
+  <div class="shell page-hero"><p class="eyebrow">Start a project</p><div class="page-hero-grid"><h1>Tell me what’s<br><em>happening.</em></h1><p class="page-hero-copy">No polished brief needed. A messy note, a half-formed idea or a problem you keep putting off is a good place to start.</p></div></div>
+  <div class="shell contact-layout">
+    <aside class="contact-aside"><h2>Let’s make a<br><em>clearer plan.</em></h2><p>I’ll reply within two working days with a useful next step, even if that step is not working together.</p><div class="contact-details"><div><span>Email</span><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></div><div><span>Based in</span><span>{{ .Site.Params.location }}</span></div></div></aside>
+    <div>
+      <form class="contact-form" data-contact-form>
+        <div class="field"><label for="name">Your name</label><input required id="name" name="name" type="text" autocomplete="name" placeholder="How should I address you?"></div>
+        <div class="field"><label for="email">Email address</label><input required id="email" name="email" type="email" autocomplete="email" placeholder="you@yourbusiness.co.uk"></div>
+        <div class="field"><label for="business">Business / organisation</label><input id="business" name="business" type="text" placeholder="The good people at..."></div>
+        <div class="field"><label for="service">What can I help with?</label><select required id="service" name="service"><option value="" disabled selected>Select the closest fit</option><option>Website</option><option>App or digital system</option><option>Branding</option><option>Local SEO</option><option>Not sure yet</option></select></div>
+        <div class="field"><label for="message">A little more context</label><textarea required id="message" name="message" placeholder="What’s changing, what’s stuck, or what would better look like?"></textarea></div>
+        <p class="error-note">Please fill in the required fields so I can reply usefully.</p>
+        <div class="form-bottom"><p class="form-note">This form is a first hello, not a sales funnel.</p><button class="button button-dark" type="submit">Send enquiry <span aria-hidden="true">↗</span></button></div>
+      </form>
+      <div class="form-success" data-form-success role="status"><h3>That’s on its way.</h3><p>Thanks for the context. I’ll read it properly and come back with a useful next step.</p></div>
+    </div>
+  </div>
+</section>
+{{ end }}

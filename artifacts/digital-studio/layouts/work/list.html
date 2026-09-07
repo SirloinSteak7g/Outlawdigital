@@ -1,0 +1,9 @@
+{{ define "main" }}
+<section class="work-page">
+  <div class="shell work-header"><div><p class="eyebrow">Selected work</p><h1>Good work,<br><em>out there.</em></h1></div><p>Projects for people who know their business, but needed the digital layer to catch up.</p></div>
+  <div class="shell work-list">
+    {{ range .Site.Data.projects }}<article class="work-entry" data-reveal><div class="work-entry-art project-{{ .colour }}"><div class="project-ui"><i></i><i></i><i></i></div><span class="project-index">{{ .number }}</span><strong>{{ .name }}</strong></div><div class="work-entry-copy"><p class="eyebrow">{{ .type }}</p><h2>{{ .name }}</h2><p>{{ .description }} {{ .result }}</p><a class="arrow-link" href="{{ .href | relURL }}">Read the project <span aria-hidden="true">↗</span></a></div></article>{{ end }}
+  </div>
+</section>
+{{ partial "cta.html" . }}
+{{ end }}

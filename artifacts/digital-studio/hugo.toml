@@ -1,0 +1,27 @@
+baseURL = "/"
+languageCode = "en-gb"
+title = "Northline Studio — Digital systems for growing businesses"
+enableRobotsTXT = true
+enableGitInfo = false
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  studioName = "Northline"
+  studioDescriptor = "Independent digital studio"
+  email = "hello@northline.studio"
+  location = "Lincolnshire · working everywhere"
+  description = "Northline designs brands, websites and digital systems that make small businesses easier to choose, run and grow."
+  ogImage = "/og-image.svg"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]

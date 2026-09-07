@@ -1,0 +1,5 @@
+<div class="section-intro {{ with .class }}{{ . }}{{ end }}">
+  {{ with .eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+  {{ with .title }}<h2>{{ . | safeHTML }}</h2>{{ end }}
+  {{ with .copy }}<p class="section-copy">{{ . }}</p>{{ end }}
+</div>

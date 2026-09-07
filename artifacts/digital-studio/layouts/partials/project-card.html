@@ -1,0 +1,12 @@
+<a class="project-card project-{{ .colour }}" href="{{ .href | relURL }}" data-reveal>
+  <div class="project-art">
+    <span class="project-index">{{ .number }}</span>
+    <div class="project-ui"><i></i><i></i><i></i></div>
+    <strong>{{ .name }}</strong>
+    <span class="project-arrow">↗</span>
+  </div>
+  <div class="project-card-copy">
+    <div><p class="eyebrow">{{ .type }}</p><h3>{{ .name }}</h3></div>
+    <p>{{ .description }}</p>
+  </div>
+</a>
