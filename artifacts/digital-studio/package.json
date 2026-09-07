@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "hugo server --bind 0.0.0.0 --port ${PORT:-20990} --baseURL ${BASE_PATH:-/} --appendPort=false --disableFastRender",
-    "build": "hugo --destination dist/public --baseURL ${BASE_PATH:-/}",
+    "dev": "hugo server --bind 0.0.0.0 --port ${PORT:-20990} --baseURL ${BASE_PATH:-/} --appendPort=false --disableFastRender --cleanDestinationDir",
+    "build": "hugo --destination dist/public --baseURL ${BASE_PATH:-/} --cleanDestinationDir",
     "serve": "hugo server --bind 0.0.0.0 --port ${PORT:-20990} --baseURL ${BASE_PATH:-/} --appendPort=false",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
