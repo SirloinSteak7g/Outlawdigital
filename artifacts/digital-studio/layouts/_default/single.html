@@ -9,7 +9,7 @@
         <div class="work-entry-art project-{{ .Params.colour }}"><div class="project-ui"><i></i><i></i><i></i></div><strong>{{ .Title }}</strong></div>
       {{ end }}
       <div class="work-detail-copy">
-        {{ with .Params.website }}<a class="project-site-link" href="https://{{ . }}" target="_blank" rel="noreferrer"><span>Live project</span><strong>{{ . }}</strong><span class="project-site-arrow" aria-hidden="true">↗</span></a>{{ end }}
+        {{ with .Params.website }}<a class="project-site-link" href="https://{{ . }}" target="_blank" rel="noreferrer" aria-label="Visit {{ $.Title }} website"><span>Visit website</span><strong>{{ . }}</strong><span class="project-site-arrow" aria-hidden="true">↗</span></a>{{ end }}
         {{ .Content }}
       </div>
     </div>
