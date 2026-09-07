@@ -10,7 +10,7 @@ When the product range is technical and the decision is personal, a catalogue ca
 
 ### The useful bit
 
-We reorganised the website around needs and outcomes rather than internal product categories. Quote requests now carry the context the team needs, so the first human conversation can start with advice instead of data collection.
+I reorganised the website around needs and outcomes rather than internal product categories. Quote requests now carry the context the team needs, so the first human conversation can start with advice instead of data collection.
 
 ### The result
 
