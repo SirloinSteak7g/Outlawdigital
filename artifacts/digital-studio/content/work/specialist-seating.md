@@ -1,12 +1,12 @@
 ---
 title: "The Specialist Seating Company"
-description: "Complex products made simple for families, clinicians and commissioners."
+description: "Complex products made simple for home carers, care homes, clinicians and hospitals."
 colour: "blue"
 website: "specialistseating.co.uk"
 ---
 ### The brief
 
-When the product range is technical and the decision is personal, a catalogue can quickly become a wall of information. The Specialist Seating Company needed a clearer way to help different audiences find confidence.
+When the product range is technical and the decision is personal, a catalogue can quickly become a wall of information. The Specialist Seating Company needed a clearer way to help home carers, care homes, clinicians and hospitals find confidence.
 
 ### The useful bit
 
