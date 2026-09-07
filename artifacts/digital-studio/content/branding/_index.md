@@ -14,4 +14,4 @@ Branding is not decoration. It is the shorthand for what you believe, who you se
 
 We find the sharpest version of the story, then give it a visual system with enough character to be remembered and enough flexibility to be used on a Tuesday morning. The outcome is not just a logo; it is a point of view your whole business can speak through.
 
-{{< figure theme="orange" label="workshop digital / identity study" headline="Say it<br>without<br>overexplaining." caption="The strongest identity systems give people a feeling, then give the business a toolkit." >}}
+{{< figure theme="orange" label="outlaw digital / identity study" headline="Say it<br>without<br>overexplaining." caption="The strongest identity systems give people a feeling, then give the business a toolkit." >}}

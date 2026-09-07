@@ -1,16 +1,16 @@
-baseURL = "https://workshopdigital.co.uk/"
+baseURL = "https://outlawdigital.co.uk/"
 languageCode = "en-gb"
-title = "Workshop Digital — Digital systems for growing businesses"
+title = "Outlaw Digital — Digital systems for growing businesses"
 enableRobotsTXT = true
 enableGitInfo = false
 disableKinds = ["taxonomy", "term"]
 
 [params]
-  studioName = "Workshop Digital"
+  studioName = "Outlaw Digital"
   studioDescriptor = "Independent digital studio"
-  email = "hello@workshopdigital.co.uk"
+  email = "hello@outlawdigital.co.uk"
   location = "Lincolnshire · working everywhere"
-  description = "Workshop Digital designs brands, websites and digital systems that make small businesses easier to choose, run and grow."
+  description = "Outlaw Digital designs brands, websites and digital systems that make small businesses easier to choose, run and grow."
   ogImage = "/og-image.svg"
 
 [markup]

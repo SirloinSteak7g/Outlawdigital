@@ -40,9 +40,12 @@ button { cursor: pointer; }
 .nav-wrap { display: flex; align-items: center; justify-content: space-between; padding: 28px 0; }
 .wordmark { display: inline-flex; align-items: center; gap: 10px; font-size: 17px; font-weight: 800; letter-spacing: -.05em; }
 .wordmark-dot, .mock-brand span { color: var(--orange); }
-.wordmark-mark { display: flex; align-items: end; gap: 3px; height: 20px; }
-.wordmark-mark i { display:block; width: 3px; background: var(--ink); transform: skew(-18deg); }
-.wordmark-mark i:nth-child(1) { height: 9px; }.wordmark-mark i:nth-child(2) { height: 15px; }.wordmark-mark i:nth-child(3) { height: 20px; }
+.wordmark-mark { width: 30px; height: 24px; overflow: visible; }
+.wordmark-mark path { fill: none; stroke: var(--ink); stroke-linecap: round; stroke-linejoin: round; }
+.wordmark-mark .bow { stroke-width: 1.8; }
+.wordmark-mark .bow-string { stroke-width: 1; opacity: .55; }
+.wordmark-mark .arrow-shaft { stroke-width: 1.6; }
+.wordmark-mark .arrow-head { stroke-width: 1.6; }
 .primary-nav { display: flex; align-items: center; gap: 25px; font-size: 12px; font-weight: 700; }
 .primary-nav a { position: relative; padding: 8px 0; }
 .primary-nav a:not(.nav-enquire):after { content: ""; position: absolute; height: 2px; background: var(--orange); left: 0; right: 100%; bottom: 2px; transition: right .25s ease; }
