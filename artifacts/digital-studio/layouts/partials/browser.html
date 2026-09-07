@@ -1,7 +1,7 @@
 <div class="browser-mockup {{ with .class }}{{ . }}{{ end }}">
   <div class="browser-bar"><span></span><span></span><span></span><small>{{ .label }}</small></div>
   <div class="browser-canvas {{ .theme }}">
-    <div class="mock-brand {{ with .brandClass }}{{ . }}{{ end }}">{{ .brand | default "outlaw digital" }}{{ if not .brand }}<span>.</span>{{ end }}</div>
+    <div class="mock-brand {{ with .brandClass }}{{ . }}{{ end }}">{{ .brand | default "outlaw.digital" }}</div>
     <div class="mock-nav">{{ .nav | default "work &nbsp;&nbsp; services &nbsp;&nbsp; contact" | safeHTML }}</div>
     <div class="mock-display">{{ .headline | safeHTML }}</div>
     <div class="mock-rule"></div>

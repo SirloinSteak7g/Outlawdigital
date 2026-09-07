@@ -14,4 +14,4 @@ No bloated software suite. We map the friction in your day, then build the right
 
 The best tool might be a smart enquiry flow. It might be a customer portal, a quoting calculator or a small internal dashboard. The shape comes from the work, not from a feature list.
 
-{{< figure theme="lime" label="outlaw digital / system map" headline="Less chasing.<br>More<br>moving." caption="A useful system is often smaller than you think, and more specific." >}}
+{{< figure theme="lime" label="outlaw.digital / system map" headline="Less chasing.<br>More<br>moving." caption="A useful system is often smaller than you think, and more specific." >}}
