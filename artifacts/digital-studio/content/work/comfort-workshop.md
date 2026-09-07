@@ -2,10 +2,16 @@
 title: "Comfort Workshop"
 description: "A complete digital platform for a made-to-measure furniture manufacturer, from first enquiry to aftercare."
 colour: "peach"
+website: "comfortworkshop.co.uk"
+mock_brand: "Comfort Workshop"
+mock_brand_class: "comfort-squash"
+mock_headline: "Comfort<br>designed<br>around you."
 ---
 ### The brief
 
 Comfort Workshop is a made-to-measure furniture manufacturer where the buying decision is personal, considered and rarely completed in a single click. They needed more than a brochure site: they needed a digital platform that could build trust in public and help the team run the whole customer and production journey behind the scenes.
+
+**Website:** [comfortworkshop.co.uk](https://comfortworkshop.co.uk) · **Brand:** orange Squash-style wordmark
 
 ### The public experience
 
