@@ -1,4 +1,4 @@
-# Northline Digital Studio
+# Workshop Digital
 
 A Hugo marketing site for an independent digital studio helping small businesses improve their websites, brands, business systems, and local visibility.
 
@@ -32,7 +32,7 @@ A Hugo marketing site for an independent digital studio helping small businesses
 
 ## Product
 
-The site presents Northline as a direct, independent digital partner for small businesses: websites, custom apps and CRM systems, branding, and local SEO. It includes responsive service pages, work and case-study content, a personal about page, a contact page with client-side validation, and technical SEO essentials.
+The site presents Workshop Digital as a direct, independent digital partner for small businesses: websites, custom apps and CRM systems, branding, and local SEO. It includes responsive service pages, work and case-study content, a personal about page, a contact page with client-side validation, and technical SEO essentials.
 
 ## User preferences
 

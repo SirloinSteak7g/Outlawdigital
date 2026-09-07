@@ -1,16 +1,16 @@
-baseURL = "/"
+baseURL = "https://workshopdigital.co.uk/"
 languageCode = "en-gb"
-title = "Northline Studio — Digital systems for growing businesses"
+title = "Workshop Digital — Digital systems for growing businesses"
 enableRobotsTXT = true
 enableGitInfo = false
 disableKinds = ["taxonomy", "term"]
 
 [params]
-  studioName = "Northline"
+  studioName = "Workshop Digital"
   studioDescriptor = "Independent digital studio"
-  email = "hello@northline.studio"
+  email = "hello@workshopdigital.co.uk"
   location = "Lincolnshire · working everywhere"
-  description = "Northline designs brands, websites and digital systems that make small businesses easier to choose, run and grow."
+  description = "Workshop Digital designs brands, websites and digital systems that make small businesses easier to choose, run and grow."
   ogImage = "/og-image.svg"
 
 [markup]
