@@ -11,8 +11,6 @@ mock_headline: "Comfort<br>designed<br>around you."
 
 Comfort Workshop is a made-to-measure furniture manufacturer where the buying decision is personal, considered and rarely completed in a single click. They needed more than a brochure site: they needed a digital platform that could build trust in public and help the team run the whole customer and production journey behind the scenes.
 
-**Website:** [comfortworkshop.co.uk](https://comfortworkshop.co.uk) · **Brand:** orange Squash-style wordmark
-
 ### The public experience
 
 The website is designed to educate, reassure and generate the right enquiries rather than push people through a standard online checkout. Customers can explore collections, fabrics and options, read useful guidance, request a brochure, book a home demonstration, arrange a showroom visit or contact the team directly.

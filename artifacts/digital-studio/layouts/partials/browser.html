@@ -2,7 +2,7 @@
   <div class="browser-bar"><span></span><span></span><span></span><small>{{ .label }}</small></div>
   <div class="browser-canvas {{ .theme }}">
     <div class="mock-brand {{ with .brandClass }}{{ . }}{{ end }}">{{ .brand | default "outlaw digital" }}{{ if not .brand }}<span>.</span>{{ end }}</div>
-    <div class="mock-nav">work &nbsp;&nbsp; services &nbsp;&nbsp; contact</div>
+    <div class="mock-nav">{{ .nav | default "work &nbsp;&nbsp; services &nbsp;&nbsp; contact" | safeHTML }}</div>
     <div class="mock-display">{{ .headline | safeHTML }}</div>
     <div class="mock-rule"></div>
     <div class="mock-blocks"><i></i><i></i><i></i></div>
