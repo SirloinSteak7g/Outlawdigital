@@ -1,0 +1,30 @@
+Short portfolio blurb Rennix Automotive needed a site that felt as discreet and premium as their storage service. We designed and built a dark, cinematic brand site that puts the cars and the care front and centre, then structured it for local search across Nottinghamshire and nearby areas — with clear service pages and a conversion-focused enquiry journey.
+
+Longer case study copy Rennix Automotive provides secure, monitored storage for performance, prestige, classic and investment vehicles from a discreet South Nottinghamshire facility. The brief was a premium web presence that matches that positioning: calm, confident, and conversion-led — not a generic garage site.
+
+We created a custom Hugo site with a dark visual system, full-bleed photography, refined typography, and restrained motion (including a light brand intro that never slows the page). Content is organised around how owners actually search: core storage services, specialist guides (classic, supercar, winter/long-term), and dedicated area pages for Nottingham, West Bridgford, Ruddington, Keyworth, Bingham, Loughborough and the wider county. SEO foundations include structured data, canonicals, Open Graph, sitemap/robots, and accessible enquiry forms with spam protection. The result is a fast, mobile-first site that looks premium and is built to generate storage enquiries.
+
+Client / industry Rennix Automotive · Vehicle storage / automotive services · Nottinghamshire
+
+Live URL https://www.rennixautomotive.co.uk/
+
+What we delivered
+
+Brand-led website design (dark premium aesthetic)
+Custom Hugo build (static, fast, easy to maintain)
+Homepage, About, Vehicle Storage, Enquire, Privacy
+Service/guide pages: classic, supercar/prestige, winter & long-term
+Local SEO area pages across Nottinghamshire (+ Loughborough)
+Enquiry forms with honeypot spam protection
+Performance-minded imagery, motion, and accessibility
+Schema / SEO / social sharing setup
+Tech tags Hugo · HTML/CSS/JS · PHP form handling · Local SEO · Responsive design
+
+Services tags Web design · Web development · Brand presentation · SEO structure · Lead generation
+
+** creds / angles you can highlight**
+
+Premium positioning for a specialist B2C service
+Local SEO architecture without bloating the brand feel
+Fast static delivery with a real enquiry path
+Motion and polish that respect performance and reduced-motion preferences
