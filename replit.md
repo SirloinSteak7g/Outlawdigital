@@ -1,45 +1,48 @@
-# [Project name]
+# Northline Digital Studio
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A Hugo marketing site for an independent digital studio helping small businesses improve their websites, brands, business systems, and local visibility.
 
 ## Run & Operate
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
-- `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
+- `pnpm --filter @workspace/digital-studio run dev` — run the Hugo site locally using the workflow-provided `PORT` and `BASE_PATH`
+- `pnpm --filter @workspace/digital-studio run build` — build the static Hugo output
+- `pnpm --filter @workspace/api-server run dev` — run the shared API server when backend work is added
 
 ## Stack
 
-- pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
+- Hugo extended
+- Markdown content and front matter
+- Go templates, partials, shortcodes, and static SVG assets
+- pnpm workspace wrapper for the managed preview workflow
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/digital-studio/content/` — page content and project/service front matter
+- `artifacts/digital-studio/layouts/` — Hugo templates and reusable partials
+- `artifacts/digital-studio/assets/` — site CSS and JavaScript pipeline assets
+- `artifacts/digital-studio/static/` — favicon and social preview assets
+- `artifacts/digital-studio/hugo.toml` — site configuration and permalinks
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- The site is a real Hugo build, not a React-rendered shell; content and reusable page patterns stay editable in Markdown/front matter.
+- The web artifact is used only to provide the managed preview and deployment lifecycle; its dev script runs Hugo directly.
+- The homepage uses CSS/HTML product mockups and local SVG assets instead of remote stock imagery.
+- Service and portfolio routes share template patterns so additional pages can be added without duplicating layouts.
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+The site presents Northline as a direct, independent digital partner for small businesses: websites, custom apps and CRM systems, branding, and local SEO. It includes responsive service pages, work and case-study content, a personal about page, a contact page with client-side validation, and technical SEO essentials.
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+- The user specifically requested a Hugo site rather than a JavaScript application.
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- The managed preview provides `PORT` and `BASE_PATH`; the Hugo dev command reads both from the environment.
+- Keep the preview workflow on the artifact-managed command rather than adding a second web server workflow.
 
 ## Pointers
 
-- See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details
+- See the `pnpm-workspace` skill for workspace structure and managed artifact conventions.
