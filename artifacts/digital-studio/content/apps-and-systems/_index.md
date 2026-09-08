@@ -16,7 +16,7 @@ No bloated software suite. I map the friction in your day, then build the right-
 
 The best tool might be a smart enquiry flow. It might be a customer portal, a quoting calculator or a small internal dashboard. The shape comes from the work, not from a feature list.
 
-Comfort Workshop is a strong example of this approach: an extremely comprehensive marketing and sales system combined with factory production operations, all in one connected platform.
+Comfort Workshop is a strong example of this approach: a highly comprehensive marketing and sales system combined with factory production, delivery and after-sales operations, all in one connected platform.
 
 <p><a class="arrow-link" href="/work/comfort-workshop/">See the Comfort Workshop example</a></p>
 
