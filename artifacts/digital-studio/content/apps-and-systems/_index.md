@@ -18,6 +18,6 @@ The best tool might be a smart enquiry flow. It might be a customer portal, a qu
 
 Comfort Workshop is a strong example of this approach: a highly comprehensive marketing and sales system combined with factory production, delivery and after-sales operations, all in one connected platform.
 
-<p><a class="arrow-link" href="/work/comfort-workshop/">See the Comfort Workshop example</a></p>
+<p><a class="button" href="/work/comfort-workshop/">See the Comfort Workshop example</a></p>
 
 {{< figure theme="lime" label="outlaw digital / system map" headline="Less chasing.<br>More<br>moving." caption="A useful system is often smaller than you think, and more specific." >}}
