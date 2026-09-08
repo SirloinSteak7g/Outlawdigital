@@ -16,4 +16,8 @@ No bloated software suite. I map the friction in your day, then build the right-
 
 The best tool might be a smart enquiry flow. It might be a customer portal, a quoting calculator or a small internal dashboard. The shape comes from the work, not from a feature list.
 
+Comfort Workshop is a strong example of this approach: an extremely comprehensive marketing and sales system combined with factory production operations, all in one connected platform.
+
+<p><a class="arrow-link" href="/work/comfort-workshop/">See the Comfort Workshop example</a></p>
+
 {{< figure theme="lime" label="outlaw digital / system map" headline="Less chasing.<br>More<br>moving." caption="A useful system is often smaller than you think, and more specific." >}}
