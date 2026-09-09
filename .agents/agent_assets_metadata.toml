@@ -1,0 +1,16 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "e2nQbU_OmlgC9cjjzMNjS"
+uri = "file://artifacts/digital-studio/outlaw-digital-website-text.txt"
+type = "text"
+title = "Outlaw Digital website text"
+description = "Plain-text export of the visible copy from the current Outlaw Digital website, organized by page."
+logical_id = "ce83bddf-adca-46bb-9121-908bfc6a29fb"
+content_hash = "sha256:5252e6cb1a2b65845dd88bdfbc622f89f9b490f1aa2297a3f3753189c202d44a"
+size = 26850
+mtime_ms = 1788959439684
+storage_uri = "gcs://replit-rams-assets-spock/rams/assets/repl:7cdad51e-27c5-491d-8f1e-60928e1d0a61/ce83bddf-adca-46bb-9121-908bfc6a29fb/b8626f87-6651-4dbf-9cc5-9d9ad42f7169"
+storage_version_token = "1788959454077595"
+content_type = "text/plain"
