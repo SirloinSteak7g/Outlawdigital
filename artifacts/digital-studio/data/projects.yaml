@@ -38,3 +38,11 @@
   colour: "mint"
   number: "05"
   href: "/work/riser-recliner-directory/"
+- slug: caravan-storage-software
+  name: "Caravan Storage Management Platform"
+  type: "Custom business system · storage operations"
+  description: "A purpose-built operating system for caravan and motorhome storage."
+  result: "Customers, pitches, payments, vehicle movements and day-to-day site operations in one connected platform."
+  colour: "mint"
+  number: "06"
+  href: "/work/caravan-storage-software/"

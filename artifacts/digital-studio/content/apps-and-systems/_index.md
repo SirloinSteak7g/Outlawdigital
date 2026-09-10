@@ -20,4 +20,8 @@ Comfort Workshop is a strong example of this approach: a highly comprehensive ma
 
 <p><a class="button" href="/work/comfort-workshop/">See the Comfort Workshop example</a></p>
 
+Caravan and motorhome storage is another example of a business that deserves a system built around the way the work actually happens: customers, vehicles, pitches, bookings, payments, movements, maintenance and day-to-day site operations, all connected in one place.
+
+<p><a class="button" href="/work/caravan-storage-software/">See the caravan storage platform</a></p>
+
 {{< figure theme="lime" label="outlaw digital / system map" headline="Less chasing.<br>More<br>moving." caption="A useful system is often smaller than you think, and more specific." >}}
