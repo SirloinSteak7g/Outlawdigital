@@ -1,0 +1,194 @@
+Elevator pitch (use this first)
+Comfort Workshop is a complete sales and factory platform for custom riser recliner chairs. It takes a visitor from Google to a signed chair, through the workshop, and to a signed delivery. Staff get a CRM with phone scripts, a live chair configurator, production boards, stock, VAT relief signing, Stripe pay links, and business KPIs. Customers get an accessible, SEO-ready website with brochure and home-demo booking, live chat, fabric browsing, and trust pages built for older buyers and their families.
+
+What you are selling (one paragraph)
+A vertical software system purpose-built for a mobility furniture maker. Public marketing pages generate brochure and demonstration leads. Those leads land in a CRM with a scripted call screen, qualification, and appointment booking. On the visit, staff measure, configure, price (including VAT relief), take a signature and deposit, and release an order. The workshop then builds the chair on a person-assigned production board. After sale, the system tracks payments, warranty, delivery confirmation, and welcome letters. Role-based login separates consultants, workshop, operations, and admin.
+
+1. Public website (what customers see)
+Positioning: Premium British-made riser recliners, fitted around the person, with free home consultation and white-glove delivery.
+
+Homepage
+
+Hero with phone number and “View chairs”
+Trust messaging: OT-approved design, 25-year frame guarantee, British made, free home demo
+Four collections, health benefits, seasonal sale, testimonials
+Persistent CTAs: request brochure + book a home demonstration
+Product range
+
+Clumber — traditional
+Welbeck — contemporary
+Homecare — tilt-in-space / pressure care
+Contour — ergonomic / everyday support
+Collection pages with features, fabrics, health benefits, and booking CTAs
+SEO landing pages (high-intent search)
+
+Dual motor riser recliners
+Mobility chairs for the elderly
+Petite riser recliners
+Made-to-measure
+Modern riser recliners
+Riser recliners for sleeping
+Learn hub
+
+Buyer’s guide to riser recliners
+Posture and pressure care
+Single vs dual motor
+Service & trust pages
+
+Home consultation (6-step process, no-obligation)
+Showroom (appointment booking, location, parking, accessibility)
+Areas we cover (East Midlands / surrounding counties)
+Price guide (why prices are quoted, not listed; what is included)
+Delivery & installation (white glove, FAQs)
+VAT relief (eligibility, common conditions, 20% saving)
+Made in Britain
+About (family business)
+Furniture Project charity partnership and £300 trade-in
+Privacy, terms, cookie consent
+Lead capture
+
+Brochure request (name, email, phone, address) → creates a CRM lead and starts the brochure workflow
+Book a demonstration (address, preferred time, notes)
+Floating brochure button on public pages
+Live chat widget: visitors message staff; staff reply via Telegram. Hidden on staff, signing, and payment pages
+Customer-only links (no marketing chrome)
+
+Password-protected VAT relief declaration signing
+Delivery confirmation with photo + signature
+Stripe checkout link to pay the remaining balance
+SEO & analytics
+
+Per-page titles and descriptions, Open Graph images, sitemap, IndexNow
+Structured data (organisation, local business, FAQs, breadcrumbs)
+UTM and landing-page attribution stored on every lead
+Google Analytics only after cookie consent
+Staff and signing pages are noindex and isolated from marketing tracking
+Designed for older users: large type, high contrast, large tap targets, click-to-call phone in the header.
+
+2. CRM and phone selling (what sales staff use)
+Pipeline from first enquiry through win/loss: New enquiry → brochure requested → brochure sent → showroom or home demo booked → quote given → follow-up → won / delivered / lost.
+
+Lead records include
+
+Contact details, extra people (main contact vs chair user)
+Source (web, Google, Facebook, leaflet, etc.) plus UTM campaign data
+Temperature (cold / warm / hot)
+Marketing consent
+Qualification profile (needs, mobility, money, decision maker, trade-in)
+Estimated value, next action, activity history
+Archive and restore (deleted leads are hidden, not destroyed)
+Brochure workflow (automatic tasks)
+
+Welcome email sent
+Day 1 courtesy call (“brochure is in the post”)
+Brochure sent
+Day 6 follow-up
+Call screen (live on the phone)
+
+Incoming call: create or match a lead instantly
+Script coach with verbatim scripts:
+Day 1 courtesy (under 3 minutes; situation, struggle, £300 trade-in; no product pitch)
+Day 6 SPIN qualification (problem → implication → need-payoff, then money & mobility)
+“What’s the price?” explanation
+Call Day Before (confirm time, fabric, who is coming, relative attending)
+Missing-info tiles; already-answered questions are skipped
+Notes, call outcome, follow-up booking, voicemail handling
+Book showroom or home demo; system creates the next-day confirmation task
+Documents from the CRM
+
+Quote PDFs
+Formal letters
+Welcome / handover letter after a sale
+VAT relief form PDF
+3. In-home / showroom consultation and quoting
+Staff tool used during a 60–90 minute fitting.
+
+Choose visit type: home or showroom
+Capture needs, goals, and who the chair is for
+Body measurements (seat height/depth/width, back, arms, weight, height) with size recommendation
+Room check (doorway, wall clearance)
+Live chair configurator:
+Range, size, back, arms, cushion, motor, fabric, handset side (left/right)
+Accessories
+Made-to-measure edits (e.g. extend footrest where allowed)
+Trade-in, second-chair half price, delivery options
+VAT relief toggle (where the mechanism qualifies)
+Ross and Panaz fabric catalogues with swatch images
+Compare multiple quotes
+Customer signature on the tablet
+Deposit taken and recorded
+Generate PDF quote pack
+Place order / release to production
+A standalone staff configurator exists for instant pricing without a full consultation (also used to spec stock chairs).
+
+Admin pricing catalogue (admin only): edit product, size, motor, cushion, fabric, accessory, and delivery prices; manage fabric ranges and option rules so invalid combinations cannot be quoted.
+
+4. Workshop, stock, and after-sale
+Production board (10 stages, assigned by person)
+
+Cut frame
+Order fabric
+Receive fabric
+Cut fabric
+Assemble frame
+Cut foam
+Foam frame
+Sew fabric
+Upholster
+Quality control (50-point checklist + finished-chair photo)
+Printable tickets: frame, fabric, chair, QC checklist. Subtasks (e.g. cover vs lining). Undo. Promised delivery date. Workshop staff only see their tools.
+
+Sewing manual: shared notes and photos per sew part.
+
+Stock: showroom and workshop chairs with photos, spec, accessories, list vs discounted price, sell to a lead, link to quote/order.
+
+Sold chairs
+
+Unique chair ID
+Promised vs actual delivery
+Payment ledger (cash/card/bank + Stripe)
+Create / revoke Stripe pay links for the customer
+Edit specification
+Welcome / handover letter
+Warranty status
+VAT relief (UK)
+
+Eligibility explained on the public site
+Staff generate a unique signing link with a password
+Customer (or someone on their behalf) signs conditions, personal-use confirmation, and signature
+Staff countersign; PDF stored for HMRC-style retention
+Delivery confirmation
+
+Token link (no password)
+Customer signs, prints name, optional photo/notes
+Locked onto the order record
+5. Staff access, KPIs, and security
+Roles
+
+Admin — everything, including pricing and user accounts
+Consultant — CRM, consultation, stock, production, KPIs
+Operations — factory/office: stock, production, sewing, sold chairs, KPIs, configurator (no sales CRM)
+Workshop — production, sewing manual, view-only stock
+KPIs (date ranges: 7 / 30 / 90 days, year to date, all, custom)
+
+Executive: business health
+Marketing: source mix, consent rate, campaigns, landing pages, ad spend vs cost per lead
+Pipeline: conversion through stages, lost reasons
+Operations: production and delivery
+Security
+
+Staff login with username/password, lockout after failed attempts, forced password change
+Sessions can be invalidated when a password is reset or a user is deactivated
+Audit log of staff actions
+CSRF protection
+Rate limits on public forms, chat, signing, and pay pages
+Suggested website copy blocks
+Headline: One system from first enquiry to a chair in the living room.
+
+Subhead: Website, CRM, quoting, workshop, VAT, and payments — built for a made-to-measure riser recliner business.
+
+Three bullets
+
+Win the right customers. SEO pages, brochure and demo forms, live chat, and a scripted phone CRM that qualifies before you leave the workshop.
+Quote on the visit. Measure, configure, apply VAT relief, sign, take a deposit, and print a professional quote before you leave.
+Build and deliver without spreadsheets. Production boards, stock, tickets, QC photos, Stripe balance links, and signed delivery forms.
