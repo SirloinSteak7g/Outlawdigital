@@ -16,6 +16,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
+    <loc>https://outlawdigital.co.uk/work/comfort-workshop/private/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url><url>
     <loc>https://outlawdigital.co.uk/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>

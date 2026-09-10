@@ -9,41 +9,22 @@ mock_headline: "Comfort<br>designed<br>around you."
 ---
 ### The brief
 
-Comfort Workshop is a made-to-measure furniture manufacturer where the buying decision is personal, considered and rarely completed in a single click. They needed more than a brochure site: they needed a digital platform that could build trust in public and help the team run the whole customer and production journey behind the scenes.
+Comfort Workshop is a British-made riser recliner business where the right chair is chosen around a person, not picked from a standard online checkout. The brief was to create more than a brochure website: a complete digital platform that supports the customer journey from first search to a finished chair in the living room.
 
 ### The public experience
 
-The website is designed to educate, reassure and generate the right enquiries rather than push people through a standard online checkout. Customers can explore collections, fabrics and options, read useful guidance, request a brochure, book a home demonstration, arrange a showroom visit or contact the team directly.
+The customer-facing website is built to educate, reassure and generate the right conversations. It brings together the chair collections, fabrics, health benefits, buyer guidance, trust content and clear routes to request a brochure or book a home demonstration.
 
-Every route is built around the questions people actually arrive with. The experience makes a complex, high-trust purchase feel clear and human, while capturing enough context for the next conversation to be genuinely useful.
+The experience is designed for older buyers and their families, with large tap targets, strong contrast, click-to-call contact and a calm route through a considered purchase. Every enquiry arrives with useful context for the next conversation.
 
-### The useful bit
+### One connected platform
 
-Behind the website sits a custom business system built around the way Comfort Workshop actually works. It brings together:
+Behind the public experience is a business system shaped around a made-to-measure product. It connects marketing, consultations, quoting, production, delivery and aftercare so the team can work from one shared view rather than passing information between disconnected tools.
 
-- Lead CRM and sales pipeline
-- Consultations and customer measurements
-- Product configuration and pricing
-- Quote generation and PDFs
-- VAT relief forms and digital signatures
-- Factory order release and production tracking
-- Printable workshop job tickets
-- Quality control checklists
-- Stock management
-- Payments and outstanding balances
-- Delivery signing and warranty tracking
-- Customer aftercare
-- KPI and performance dashboards
-- Role-based access for sales, operations and workshop staff
+The public story stays intentionally high-level. A private product walkthrough is available for selected partners who need to understand the internal operating model in more detail.
 
-### One connected journey
-
-The system takes a customer from **Enquiry → Consultation → Quote → Order → Production → Quality Control → Delivery → Aftercare**.
-
-That replaces a mixture of spreadsheets, paper forms, disconnected software and manual admin with one shared view of what needs to happen next for the customer, the sales team, the office and the workshop.
+<p><a class="button button-dark private-detail-link" href="/work/comfort-workshop/private/">Open the private product walkthrough <span aria-hidden="true">↗</span></a></p>
 
 ### The result
 
-A high-trust marketing website and a practical internal system working as one platform: better information for customers, fewer handovers for staff and a clearer route from a first conversation to a finished piece of furniture.
-
-The same approach works for any consultation-led or made-to-order business, including custom furniture, kitchens, specialist equipment, mobility products, joinery, vehicles and other products that need to be measured, configured, manufactured and delivered.
+A high-trust marketing website and a practical internal platform working as one product: better information for customers, fewer handovers for staff and a clearer route from a first conversation to a completed chair.
