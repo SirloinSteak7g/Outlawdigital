@@ -9,7 +9,7 @@ mock_headline: "Comfort<br>designed<br>around you."
 ---
 ### The brief
 
-Comfort Workshop is a British-made riser recliner business where the right chair is chosen around a person, not picked from a standard online checkout. The brief was to create more than a brochure website: a complete digital platform that supports the customer journey from first search to a finished chair in the living room.
+Comfort Workshop is a British-made riser recliner business where every chair is chosen around the person using it, not picked from a standard online checkout. The brief was to create more than a brochure website: a complete digital platform that helps people find the right chair, gives the team the context to guide that decision and supports the journey through to a finished chair in the living room.
 
 ### The public experience
 
@@ -19,7 +19,9 @@ The experience is designed for older buyers and their families, with large tap t
 
 ### One connected platform
 
-Behind the public experience is a business system shaped around a made-to-measure product. It connects marketing, consultations, quoting, production, delivery and aftercare so the team can work from one shared view rather than passing information between disconnected tools.
+Behind the public experience is a business system shaped around a made-to-measure product. It brings together enquiries, customer conversations, consultations, tailored quotes and the operational work that follows, giving the team one shared view from first contact through making, delivery and aftercare.
+
+The platform is designed to support the people doing the work as well as the people buying the chair: less repeated information, clearer handovers and a more dependable route from a first conversation to a finished product.
 
 The public story stays intentionally high-level. A private product walkthrough is available for selected partners who need to understand the internal operating model in more detail.
 
