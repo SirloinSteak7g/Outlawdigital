@@ -16,6 +16,32 @@ Less admin. Better visibility. A storage site that is easier to run.
 
 <p><a class="button" href="/contact/">Talk about a system like this</a></p>
 
+<div class="storage-overview" aria-label="Caravan storage platform overview">
+  <div class="storage-overview-heading">
+    <p class="eyebrow">The connected view</p>
+    <h2>One record.<br><em>Every movement.</em></h2>
+    <p>From the first enquiry to the next return, every part of the storage relationship stays connected.</p>
+  </div>
+  <div class="storage-journey" aria-label="Customer journey through the platform">
+    <span>Enquiry</span><b>→</b><span>Customer</span><b>→</b><span>Agreement</span><b>→</b><span>Pitch</span><b>→</b><span>Movement</span>
+  </div>
+  <div class="storage-feature-cards">
+    <div><span>01</span><strong>See the site</strong><p>A live pitch map shows capacity, arrivals and vehicles away.</p></div>
+    <div><span>02</span><strong>Know the customer</strong><p>Vehicles, agreements, payments and documents live together.</p></div>
+    <div><span>03</span><strong>Run the day</strong><p>Collections, returns, tasks and maintenance start from one dashboard.</p></div>
+  </div>
+</div>
+
+<nav class="storage-nav" aria-label="Platform sections">
+  <span>Explore the platform</span>
+  <a href="#interactive-pitch-management">Pitch map</a>
+  <a href="#customer-and-vehicle-records">Customer records</a>
+  <a href="#customer-portal">Customer portal</a>
+  <a href="#caravan-collection-and-return">Movements</a>
+  <a href="#maintenance-and-inspections">Site operations</a>
+  <a href="#reporting-and-dashboards">Reporting</a>
+</nav>
+
 ### Built around caravan storage. Not adapted to it.
 
 Most storage software starts with a box, a unit and a lock.

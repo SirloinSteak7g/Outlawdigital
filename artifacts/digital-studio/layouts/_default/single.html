@@ -1,9 +1,36 @@
 {{ define "main" }}
 {{ if eq .Section "work" }}
-  <article class="work-page">
+  <article class="work-page{{ if eq .File.ContentBaseName "caravan-storage-software" }} caravan-page{{ end }}">
     <div class="shell page-hero"><p class="eyebrow">Selected work</p><div class="page-hero-grid"><h1>{{ .Title }}</h1><p class="page-hero-copy">{{ .Params.description }}</p></div></div>
     <div class="shell work-detail">
-      {{ if .Params.mock_headline }}
+      {{ if eq .File.ContentBaseName "caravan-storage-software" }}
+        <div class="storage-dashboard-preview" aria-label="Illustration of a caravan storage operations dashboard">
+          <div class="storage-dashboard-top"><span>storage operations</span><span>today / 08:42</span></div>
+          <div class="storage-dashboard-title"><strong>Site overview</strong><span>All locations</span></div>
+          <div class="storage-metrics">
+            <div><span>Occupancy</span><strong>84%</strong><small>42 of 50 pitches</small></div>
+            <div><span>Arrivals today</span><strong>04</strong><small>2 confirmed</small></div>
+            <div><span>Vehicles away</span><strong>07</strong><small>3 returns expected</small></div>
+          </div>
+          <div class="storage-dashboard-main">
+            <div class="storage-pitch-map">
+              <div class="storage-panel-label">Live pitch map <span>north field</span></div>
+              <div class="pitch-grid" aria-hidden="true">
+                <i class="pitch-occupied"></i><i class="pitch-occupied"></i><i class="pitch-away"></i><i class="pitch-occupied"></i><i class="pitch-available"></i>
+                <i class="pitch-occupied"></i><i class="pitch-reserved"></i><i class="pitch-occupied"></i><i class="pitch-away"></i><i class="pitch-occupied"></i>
+                <i class="pitch-available"></i><i class="pitch-occupied"></i><i class="pitch-occupied"></i><i class="pitch-reserved"></i><i class="pitch-occupied"></i>
+              </div>
+              <div class="pitch-legend"><span><i class="pitch-occupied"></i> Occupied</span><span><i class="pitch-away"></i> Away</span><span><i class="pitch-available"></i> Available</span></div>
+            </div>
+            <div class="storage-today-list">
+              <div class="storage-panel-label">Needs attention <span>today</span></div>
+              <p><b>09:30</b> Collection · Pitch B14</p>
+              <p><b>11:00</b> New enquiry · James H.</p>
+              <p><b>14:15</b> Return expected · Pitch A03</p>
+            </div>
+          </div>
+        </div>
+      {{ else if .Params.mock_headline }}
         <div class="work-detail-preview">{{ partial "browser.html" (dict "label" (printf "%s / home" .Params.website) "theme" "cream" "brand" .Params.mock_brand "brandClass" .Params.mock_brand_class "headline" .Params.mock_headline "nav" "chairs &nbsp;&nbsp; pricing &nbsp;&nbsp; home demo") }}</div>
       {{ else }}
         <div class="work-entry-art project-{{ .Params.colour }}"><div class="project-ui"><i></i><i></i><i></i></div><strong>{{ .Title }}</strong></div>
