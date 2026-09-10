@@ -9,7 +9,9 @@ mock_headline: "Comfort<br>designed<br>around you."
 ---
 ### The brief
 
-Comfort Workshop is a British-made riser recliner business where every chair is chosen around the person using it, not picked from a standard online checkout. The brief was to create more than a brochure website: a complete digital platform that helps people find the right chair, gives the team the context to guide that decision and supports the journey through to a finished chair in the living room.
+Comfort Workshop makes British-made riser recliner chairs around the person who will use them. Unlike a standard online purchase, every order carries a considered set of choices — from the consultation and quote to the final specification the workshop uses to build the chair.
+
+The brief was to create more than a brochure website: a connected digital platform for the entire journey. It should help customers find the right product, help the team capture and carry the detail of each order, and give production, delivery and aftercare a clear route from an agreed specification to a finished chair in the living room.
 
 ### The public experience
 
