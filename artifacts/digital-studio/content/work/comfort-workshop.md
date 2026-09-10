@@ -25,9 +25,7 @@ Behind the public experience is a business system shaped around a made-to-measur
 
 The platform is designed to support the people doing the work as well as the people buying the chair: less repeated information, clearer handovers and a more dependable route from a first conversation to a finished product.
 
-The public story stays intentionally high-level. A private product walkthrough is available for selected partners who need to understand the internal operating model in more detail.
-
-<p><a class="button button-dark private-detail-link" href="/work/comfort-workshop/private/">Open the private product walkthrough <span aria-hidden="true">↗</span></a></p>
+{{< comfort-workshop-system >}}
 
 ### The result
 
