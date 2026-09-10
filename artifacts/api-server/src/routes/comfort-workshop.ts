@@ -205,6 +205,10 @@ router.post("/comfort-workshop/auth", (req, res) => {
   return res.json({ authenticated: true });
 });
 
+router.get("/comfort-workshop/session", (req, res) => {
+  return res.json({ authenticated: hasValidSession(req) });
+});
+
 router.get("/comfort-workshop/content", (req, res) => {
   if (!hasValidSession(req)) return res.status(401).json({ error: "Authentication required." });
   res.setHeader("Cache-Control", "no-store");

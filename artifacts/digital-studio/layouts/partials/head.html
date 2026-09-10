@@ -6,7 +6,7 @@
 {{- $pageURL := printf "%s%s" $siteURL .RelPermalink -}}
 {{- $imageURL := printf "%s%s" $siteURL .Site.Params.ogImage -}}
 <meta name="description" content="{{ $pageDescription }}">
-<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="robots" content="{{ if .Params.noindex }}noindex, nofollow, noarchive{{ else }}index, follow, max-image-preview:large{{ end }}">
 <meta name="author" content="{{ .Site.Params.studioName }}">
 <meta name="theme-color" content="#f2eee6">
 <meta name="geo.region" content="GB-NTT">

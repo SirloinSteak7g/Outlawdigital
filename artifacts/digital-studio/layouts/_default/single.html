@@ -1,5 +1,86 @@
 {{ define "main" }}
-{{ if eq .Section "work" }}
+{{ if .Params.private_detail }}
+  <article class="private-page">
+    <div class="shell page-hero"><p class="eyebrow">Selected product detail</p><div class="page-hero-grid"><h1>Comfort Workshop<br><em>private walkthrough.</em></h1><p class="page-hero-copy">A fuller view of the platform behind the public website. This page is shared privately with selected partners.</p></div></div>
+    <div class="shell private-detail-shell">
+      <section class="private-gate" id="comfort-private-gate" aria-labelledby="private-gate-title">
+        <p class="eyebrow">Password required</p>
+        <h2 id="private-gate-title">Open the product detail.</h2>
+        <p>Enter the password shared with you to view the internal operating model, workflows and system detail.</p>
+        <form id="comfort-private-form">
+          <label for="comfort-private-password">Private page password</label>
+          <input class="private-form-username" type="text" name="username" autocomplete="username" value="comfort-workshop" tabindex="-1" aria-hidden="true">
+          <div class="private-gate-input"><input id="comfort-private-password" name="password" type="password" autocomplete="current-password" required><button class="button" type="submit">Open detail <span aria-hidden="true">↗</span></button></div>
+          <p class="private-gate-status" id="comfort-private-status" role="alert" aria-live="polite"></p>
+        </form>
+      </section>
+      <section class="private-detail-content" id="comfort-private-content" hidden aria-live="polite"></section>
+      <div class="private-content-tools" id="comfort-private-tools" hidden><button class="arrow-link" id="comfort-private-lock" type="button">Lock this detail <span aria-hidden="true">↗</span></button></div>
+    </div>
+    <script>
+      (() => {
+        const endpoint = "{{ "/api/comfort-workshop" | relURL }}";
+        const gate = document.getElementById("comfort-private-gate");
+        const form = document.getElementById("comfort-private-form");
+        const input = document.getElementById("comfort-private-password");
+        const status = document.getElementById("comfort-private-status");
+        const content = document.getElementById("comfort-private-content");
+        const tools = document.getElementById("comfort-private-tools");
+        const lock = document.getElementById("comfort-private-lock");
+
+        const showContent = (data) => {
+          content.innerHTML = data.html;
+          gate.hidden = true;
+          content.hidden = false;
+          tools.hidden = false;
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        };
+
+        const loadContent = async () => {
+          const response = await fetch(endpoint + "/content", { credentials: "same-origin" });
+          if (!response.ok) return false;
+          showContent(await response.json());
+          return true;
+        };
+
+        form.addEventListener("submit", async (event) => {
+          event.preventDefault();
+          status.textContent = "Checking access…";
+          const response = await fetch(endpoint + "/auth", {
+            method: "POST",
+            credentials: "same-origin",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ password: input.value })
+          });
+          if (!response.ok) {
+            const data = await response.json().catch(() => ({}));
+            status.textContent = data.error || "Unable to open the private detail.";
+            input.select();
+            return;
+          }
+          input.value = "";
+          status.textContent = "";
+          await loadContent();
+        });
+
+        lock.addEventListener("click", async () => {
+          await fetch(endpoint + "/logout", { method: "POST", credentials: "same-origin" });
+          content.innerHTML = "";
+          content.hidden = true;
+          tools.hidden = true;
+          gate.hidden = false;
+          input.focus();
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+
+        fetch(endpoint + "/session", { credentials: "same-origin" })
+          .then((response) => response.ok ? response.json() : { authenticated: false })
+          .then((session) => session.authenticated ? loadContent() : null)
+          .catch(() => {});
+      })();
+    </script>
+  </article>
+{{ else if eq .Section "work" }}
   <article class="work-page{{ if eq .File.ContentBaseName "caravan-storage-software" }} caravan-page{{ end }}">
     <div class="shell page-hero"><p class="eyebrow">Selected work</p><div class="page-hero-grid"><h1>{{ .Title }}</h1><p class="page-hero-copy">{{ .Params.description }}</p></div></div>
     <div class="shell work-detail">
