@@ -1,3 +1,26 @@
+/* Tipsy Telephone system card */
+.system-product-tipsy .system-product-visual { background:var(--violet); color:var(--ink); }
+.system-product-tipsy .system-product-top { color:var(--lime); }
+.tipsy-system-player { display:grid; grid-template-columns:58px 1fr; gap:15px; align-items:center; margin-top:54px; padding:16px; background:rgba(242,238,230,.46); border:1px solid rgba(23,32,28,.25); }
+.tipsy-system-dial { width:52px; height:52px; border:2px solid var(--ink); border-radius:50%; display:grid; place-items:center; font-size:22px; }
+.tipsy-system-wave { height:54px; display:flex; align-items:center; justify-content:center; gap:4px; border-bottom:1px solid rgba(23,32,28,.35); }
+.tipsy-system-wave i { width:4px; height:var(--wave-height,24px); background:var(--orange); }
+.tipsy-system-wave i:nth-child(2), .tipsy-system-wave i:nth-child(8) { --wave-height:36px; }
+.tipsy-system-wave i:nth-child(3), .tipsy-system-wave i:nth-child(7) { --wave-height:46px; }
+.tipsy-system-wave i:nth-child(4), .tipsy-system-wave i:nth-child(6) { --wave-height:30px; }
+.tipsy-system-wave i:nth-child(5) { --wave-height:52px; }
+.tipsy-system-message { grid-column:2; display:flex; justify-content:space-between; gap:12px; font:9px var(--mono); text-transform:uppercase; }
+.tipsy-system-message strong { color:var(--orange-deep); }
+.tipsy-system-flow { display:flex; align-items:center; gap:8px; margin-top:32px; padding-top:14px; border-top:1px solid rgba(23,32,28,.25); font:9px var(--mono); text-transform:uppercase; }
+.tipsy-system-flow span { padding:8px 9px; background:rgba(242,238,230,.6); }
+.tipsy-system-flow b { color:var(--orange-deep); }
+.system-product-tipsy .system-product-footer .eyebrow { color:var(--orange-deep); }
+@media (max-width: 480px) {
+  .tipsy-system-player { grid-template-columns:45px 1fr; gap:10px; margin-top:42px; padding:12px; }
+  .tipsy-system-dial { width:42px; height:42px; font-size:18px; }
+  .tipsy-system-flow { gap:4px; font-size:8px; }
+  .tipsy-system-flow span { padding:7px 5px; }
+}
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap');
 
 :root {
