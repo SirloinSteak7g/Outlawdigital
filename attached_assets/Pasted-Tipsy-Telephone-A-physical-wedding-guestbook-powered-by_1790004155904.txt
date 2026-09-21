@@ -1,0 +1,31 @@
+Tipsy Telephone
+
+A physical wedding guestbook, powered by a fully automated digital platform.
+
+Tipsy Telephone started with a simple idea: let wedding guests pick up a real telephone and leave a message for the couple. Behind that simple interaction, we built the technology that handles everything that happens next.
+
+The result is an end-to-end system that takes recordings from the physical phone, processes and organises them, and delivers them to each couple through their own private digital answering machine.
+
+Guests don’t need an app, an account or any instructions beyond picking up the phone.
+
+Behind the scenes, the platform does the work.
+
+* Automated recording processing – messages captured by the telephone are transferred into the platform and associated with the correct wedding.
+* Private customer galleries – every couple receives their own password-protected digital answering machine where all of their messages live.
+* Interactive retro audio player – rather than presenting couples with a folder of MP3 files, the recordings are turned into an experience designed around the original telephone concept.
+* Listen, skip, replay and download – couples can work through their messages just like an answering machine and keep the original recordings permanently.
+* Individual message sharing – a single recording can be shared back with the person who left it, making thank-yous and particularly memorable messages easy to send.
+* Flexible message delivery – couples can receive the complete collection at once or have recordings revealed gradually, extending the experience beyond the wedding day.
+* Automated customer communication – links, access details and recording delivery can be handled by the system rather than manually preparing each wedding.
+* Venue management system – partner venues can run their own Tipsy Telephone from a simple dashboard. Staff enter the couple’s details, select how they want their recordings delivered, and the platform takes care of the rest.
+* Reusable hardware, individual experiences – the same physical telephone can move from wedding to wedding while the software creates a completely separate, secure experience for every couple.
+
+The interesting bit
+
+We didn’t just build the booking website. We built the product behind the business.
+
+The physical phone is only the visible part of Tipsy Telephone. The software turns what could have been a labour-intensive rental service into a repeatable system: capture the recordings, identify the wedding, organise the files, create the customer experience and deliver everything automatically.
+
+That means the technology isn’t simply supporting the business. It’s what allows the business model to work at scale.
+
+For Outlaw Digital, I’d actually make that last idea the centre of the case study. It demonstrates something much stronger than “we make websites”: Outlaw can take a business idea and build the software infrastructure required to operate it.

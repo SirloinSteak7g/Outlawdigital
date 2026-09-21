@@ -3,7 +3,17 @@
   <article class="work-page{{ if eq .File.ContentBaseName "caravan-storage-software" }} caravan-page{{ end }}">
     <div class="shell page-hero"><p class="eyebrow">Selected work</p><div class="page-hero-grid"><h1>{{ .Title }}</h1><p class="page-hero-copy">{{ .Params.description }}</p></div></div>
     <div class="shell work-detail">
-      {{ if eq .File.ContentBaseName "caravan-storage-software" }}
+      {{ if eq .Params.project_visual "tipsy-telephone" }}
+        <div class="tipsy-telephone-preview" aria-label="Illustration of the Tipsy Telephone physical wedding guestbook">
+          <div class="tipsy-telephone-top"><span>tipsy telephone</span><span>audio guestbook / 01</span></div>
+          <div class="tipsy-telephone-stage">
+            <div class="tipsy-telephone-wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="tipsy-telephone-handset" aria-hidden="true"></div>
+            <div class="tipsy-telephone-base" aria-hidden="true"><span>leave a message</span><b>●</b></div>
+          </div>
+          <div class="tipsy-telephone-bottom"><strong>pick up / press play / remember</strong><span>private digital gallery</span></div>
+        </div>
+      {{ else if eq .File.ContentBaseName "caravan-storage-software" }}
         <div class="storage-dashboard-preview" aria-label="Illustration of a caravan storage operations dashboard">
           <div class="storage-dashboard-top"><span>storage operations</span><span>today / 08:42</span></div>
           <div class="storage-dashboard-title"><strong>Site overview</strong><span>All locations</span></div>

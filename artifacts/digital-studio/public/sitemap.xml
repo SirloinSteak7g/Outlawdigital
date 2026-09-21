@@ -52,6 +52,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
+    <loc>https://outlawdigital.co.uk/work/tipsy-telephone/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url><url>
     <loc>https://outlawdigital.co.uk/websites/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

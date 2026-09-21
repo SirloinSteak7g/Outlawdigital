@@ -46,3 +46,11 @@
   colour: "mint"
   number: "06"
   href: "/work/caravan-storage-software/"
+- slug: tipsy-telephone
+  name: "Tipsy Telephone"
+  type: "Physical product · digital platform"
+  description: "A real wedding guestbook powered by an automated recording and delivery platform."
+  result: "A reusable telephone experience that turns every message into a private digital keepsake."
+  colour: "violet"
+  number: "07"
+  href: "/work/tipsy-telephone/"
