@@ -136,3 +136,14 @@ h2 { font-size: clamp(42px, 5vw, 70px); letter-spacing: -.08em; line-height: .94
   @media (max-width: 860px) { .work-detail > * { min-width:0; }.tipsy-telephone-preview { min-height:460px; box-sizing:border-box; overflow:hidden; }.tipsy-telephone-top, .tipsy-telephone-bottom { flex-wrap:wrap; }.tipsy-telephone-stage { min-height:340px; }.tipsy-overview-heading { grid-template-columns:1fr; gap:15px; }.tipsy-overview-heading h2 { font-size:38px; }.tipsy-feature-cards { grid-template-columns:1fr; } }
   @media (max-width: 480px) { .tipsy-telephone-preview { width:100%; max-width:100%; min-height:420px; padding:16px; box-shadow:8px 8px 0 var(--orange); }.tipsy-telephone-top, .tipsy-telephone-bottom { gap:6px; font-size:8px; }.tipsy-telephone-top span, .tipsy-telephone-bottom span { min-width:0; max-width:48%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }.tipsy-telephone-stage { min-height:300px; transform:scale(.86); margin:0 -24px; }.tipsy-overview { padding:22px; }.tipsy-journey { margin-right:-8px; }.tipsy-feature-cards { gap:6px; } }
   @media (prefers-reduced-motion: reduce) { *, *:before, *:after { scroll-behavior:auto !important; animation-duration:.01ms !important; transition-duration:.01ms !important; } }
+
+/* Comfort Workshop case study layout */
+.comfort-page .work-detail { display:block; }
+.comfort-page .work-detail-preview { float:left; width:calc(50% - 35px); margin:10px 70px 52px 0; padding:10px 14px 18px 0; box-sizing:border-box; }
+.comfort-page .work-detail-copy { max-width:none; }
+.comfort-page .work-detail-copy h3 { margin-top:54px; font-size:30px; color:var(--ink); }
+.comfort-page .private-detail-content { clear:both; }
+@media (max-width: 860px) {
+  .comfort-page .work-detail-preview { float:none; width:100%; margin:0 0 42px; padding:0; }
+  .comfort-page .work-detail-copy { max-width:none; }
+}

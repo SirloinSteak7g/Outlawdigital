@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ if eq .Section "work" }}
-  <article class="work-page{{ if eq .File.ContentBaseName "caravan-storage-software" }} caravan-page{{ end }}">
+  <article class="work-page{{ if eq .File.ContentBaseName "caravan-storage-software" }} caravan-page{{ else if eq .File.ContentBaseName "comfort-workshop" }} comfort-page{{ end }}">
     <div class="shell page-hero"><p class="eyebrow">Selected work</p><div class="page-hero-grid"><h1>{{ .Title }}</h1><p class="page-hero-copy">{{ .Params.description }}</p></div></div>
     <div class="shell work-detail">
       {{ if eq .Params.project_visual "tipsy-telephone" }}
