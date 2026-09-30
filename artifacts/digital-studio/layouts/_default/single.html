@@ -47,6 +47,18 @@
       {{ end }}
       <div class="work-detail-copy">
         {{ with .Params.website }}<a class="project-site-link" href="https://{{ . }}" target="_blank" rel="noreferrer"><span>Live project</span><strong>{{ . }}</strong><span class="project-site-arrow" aria-hidden="true">↗</span></a>{{ end }}
+        {{ if eq .File.ContentBaseName "comfort-workshop" }}
+          <section class="comfort-flow-card" aria-label="Comfort Workshop platform journey">
+            <div class="comfort-flow-card-heading"><span>Platform journey</span><span>01 — 05</span></div>
+            <ol>
+              <li><span>01</span><strong>Enquiry</strong></li>
+              <li><span>02</span><strong>Consultation</strong></li>
+              <li><span>03</span><strong>Specification</strong></li>
+              <li><span>04</span><strong>Workshop</strong></li>
+              <li><span>05</span><strong>Delivery &amp; aftercare</strong></li>
+            </ol>
+          </section>
+        {{ end }}
         {{ .Content }}
       </div>
     </div>

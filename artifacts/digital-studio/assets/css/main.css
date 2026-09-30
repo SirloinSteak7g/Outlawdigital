@@ -143,7 +143,14 @@ h2 { font-size: clamp(42px, 5vw, 70px); letter-spacing: -.08em; line-height: .94
 .comfort-page .work-detail-copy { max-width:none; }
 .comfort-page .work-detail-copy h3 { margin-top:54px; font-size:30px; color:var(--ink); }
 .comfort-page .private-detail-content { clear:both; }
+.comfort-flow-card { margin:0 0 30px; padding:22px; background:var(--lime); color:var(--ink); }
+.comfort-flow-card-heading { display:flex; justify-content:space-between; gap:12px; color:var(--orange-deep); font:10px var(--mono); letter-spacing:.08em; text-transform:uppercase; }
+.comfort-flow-card ol { margin:18px 0 0; padding:0; border-top:1px solid rgba(23,32,28,.25); list-style:none; }
+.comfort-flow-card li { display:grid; grid-template-columns:34px 1fr; gap:12px; align-items:center; padding:11px 0; border-bottom:1px solid rgba(23,32,28,.2); }
+.comfort-flow-card li span { color:var(--orange-deep); font:10px var(--mono); }
+.comfort-flow-card li strong { font-size:16px; letter-spacing:-.03em; }
 @media (max-width: 860px) {
   .comfort-page .work-detail-preview { float:none; width:100%; margin:0 0 42px; padding:0; }
   .comfort-page .work-detail-copy { max-width:none; }
+  .comfort-flow-card { display:none; }
 }
