@@ -21,19 +21,6 @@
   <div class="ticker-track"><span>Websites <b>·</b></span><span>Apps &amp; systems <b>·</b></span><span>Branding <b>·</b></span><span>Local SEO <b>·</b></span><span>Websites <b>·</b></span><span>Apps &amp; systems <b>·</b></span><span>Branding <b>·</b></span><span>Local SEO <b>·</b></span></div>
 </div>
 
-<section class="services" id="services">
-  <div class="shell">
-    {{ partial "section-intro.html" (dict "eyebrow" "The digital layer" "title" "One studio.<br><em>Four ways in.</em>" "copy" "The visible stuff and the behind-the-scenes stuff, considered as one connected system.") }}
-    <div class="service-list">
-      {{ range .Site.Data.services }}
-      <a class="service-row" href="{{ .link | relURL }}" data-reveal>
-        <span class="number">{{ .number }}</span><h3>{{ .short }}</h3><p>{{ .description }}</p><span class="service-arrow" aria-hidden="true">↗</span>
-      </a>
-      {{ end }}
-    </div>
-  </div>
-</section>
-
 <section class="showcase">
   <div class="shell">
     <div class="showcase-intro">
@@ -85,6 +72,19 @@
 
 <section class="seo-band">
   <div class="shell seo-layout"><div><p class="eyebrow">Findable by design</p><h2>Be the answer when someone nearby is ready to <em>choose.</em></h2><p class="section-copy seo-band-copy">Based in North Nottinghamshire, I help local businesses become easier to find, understand and choose in the places their customers are already searching.</p></div><a class="button" href="{{ "/local-seo/" | relURL }}">Explore local SEO <span aria-hidden="true">↗</span></a></div>
+</section>
+
+<section class="services" id="services">
+  <div class="shell">
+    {{ partial "section-intro.html" (dict "eyebrow" "The digital layer" "title" "One studio.<br><em>Four ways in.</em>" "copy" "The visible stuff and the behind-the-scenes stuff, considered as one connected system.") }}
+    <div class="service-list">
+      {{ range .Site.Data.services }}
+      <a class="service-row" href="{{ .link | relURL }}" data-reveal>
+        <span class="number">{{ .number }}</span><h3>{{ .short }}</h3><p>{{ .description }}</p><span class="service-arrow" aria-hidden="true">↗</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
 </section>
 {{ partial "cta.html" . }}
 {{ end }}
