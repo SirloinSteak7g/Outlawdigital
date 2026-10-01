@@ -27,13 +27,18 @@
 <title>{{ $pageTitle }}</title>
 {{ if .IsHome }}
   {{- $businessID := printf "%s#business" $siteURL -}}
-  {{- $business := dict "@type" "ProfessionalService" "@id" $businessID "name" .Site.Params.studioName "description" .Site.Params.description "url" $siteURL "email" .Site.Params.email "telephone" .Site.Params.phone "areaServed" .Site.Params.serviceAreas "serviceType" (slice "Web design" "Custom business systems" "Branding" "Local SEO") -}}
+  {{- $personID := printf "%s#james-carter" $siteURL -}}
+  {{- $business := dict "@type" "ProfessionalService" "@id" $businessID "name" .Site.Params.studioName "description" .Site.Params.description "url" $siteURL "email" .Site.Params.email "telephone" .Site.Params.phone "areaServed" .Site.Params.serviceAreas "serviceType" (slice "Web design" "Custom business systems" "Branding" "Local SEO") "founder" (dict "@id" $personID) -}}
   {{- $website := dict "@type" "WebSite" "@id" (printf "%s#website" $siteURL) "name" .Site.Params.studioName "url" $siteURL "description" .Site.Params.description "publisher" (dict "@id" $businessID) -}}
   {{- $graph := dict "@context" "https://schema.org" "@graph" (slice $business $website) -}}
 <script type="application/ld+json">{{ $graph | jsonify | safeJS }}</script>
 {{ else }}
-  {{- $pageSchema := dict "@context" "https://schema.org" "@type" "WebPage" "@id" (printf "%s#webpage" $pageURL) "url" $pageURL "name" $pageTitle "description" $pageDescription "isPartOf" (dict "@id" (printf "%s#website" $siteURL)) -}}
+  {{- $pageSchema := dict "@context" "https://schema.org" "@type" "WebPage" "@id" (printf "%s#webpage" $pageURL) "url" $pageURL "name" $pageTitle "description" $pageDescription "isPartOf" (dict "@id" (printf "%s#website" $siteURL)) "publisher" (dict "@id" (printf "%s#business" $siteURL)) -}}
 <script type="application/ld+json">{{ $pageSchema | jsonify | safeJS }}</script>
+  {{- if eq .Section "about" -}}
+    {{- $person := dict "@context" "https://schema.org" "@type" "Person" "@id" (printf "%s#james-carter" $siteURL) "name" "James Carter" "jobTitle" "Independent designer and developer" "url" $pageURL "worksFor" (dict "@id" (printf "%s#business" $siteURL) ) -}}
+<script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
+  {{- end -}}
   {{- $breadcrumbItems := slice (dict "@type" "ListItem" "position" 1 "name" "Home" "item" (printf "%s/" $siteURL)) -}}
   {{- if .Section -}}
     {{- $sectionPage := .Site.GetPage (printf "/%s" .Section) -}}

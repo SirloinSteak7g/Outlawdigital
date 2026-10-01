@@ -11,10 +11,20 @@ deliverables:
   - "Client portals and internal dashboards"
   - "Automated documents and notifications"
   - "Integrations with tools you already use"
+questions:
+  - question: "What kinds of business systems can you build?"
+    answer: >-
+      The work can range from a smarter enquiry flow or quoting calculator to a client portal, internal dashboard, automated document, notification or integration.
+  - question: "Does a custom system mean replacing software I already use?"
+    answer: >-
+      No. The process starts by mapping how the business works, including the tools already in use. Where it makes sense, a new system can connect to those tools instead of replacing them.
+  - question: "When is a custom system worth exploring?"
+    answer: >-
+      Consider one when people repeatedly copy information between inboxes, spreadsheets or disconnected tools, or when important handovers are easy to miss. The first step is mapping the process; sometimes a focused form or automation is enough.
 ---
-No bloated software suite. I map the friction in your day, then build the right-sized system around your real process, including forms, PDFs and customer records for North Nottinghamshire businesses.
+I design right-sized apps and business systems for North Nottinghamshire businesses, starting with the process that needs to work better. That might mean a smarter enquiry flow, a quoting calculator, a client portal or a small internal dashboard.
 
-The best tool might be a smart enquiry flow. It might be a customer portal, a quoting calculator or a small internal dashboard. The shape comes from the work, not from a feature list.
+No bloated software suite. I map the friction in your day, then build around the real process, including forms, PDFs and customer records. The shape comes from the work, not from a feature list.
 
 <div class="systems-products" aria-label="Featured digital products">
   <a class="system-product system-product-comfort" href="/work/comfort-workshop/">

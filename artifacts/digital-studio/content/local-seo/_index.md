@@ -11,8 +11,18 @@ deliverables:
   - "Google Business Profile direction"
   - "Service and location page planning"
   - "Measurement, reporting and iteration"
+questions:
+  - question: "What does local SEO work include?"
+    answer: >-
+      The work can include a technical and local search audit, Google Business Profile direction, service and location page planning, and measurement, reporting and iteration.
+  - question: "Can anyone guarantee a top ranking or an AI citation?"
+    answer: >-
+      No. Search positions and AI citations are decided by external platforms and depend on factors no provider controls. The focus here is on useful service information, sound technical foundations and steady measurement—not promises of overnight results.
+  - question: "How do you decide which locations need a page?"
+    answer: >-
+      Plan pages for areas the business genuinely serves and where there is useful, distinct information to give customers. Repeating the same copy across towns does not answer a different local need.
 ---
-Search is part of the experience. I help North Nottinghamshire businesses fix the foundations, make their expertise legible to search engines and create useful local signals that compound.
+I help North Nottinghamshire businesses improve local search visibility through technical and local search audits, Google Business Profile direction, service and location page planning, and ongoing measurement.
 
 No mystery dashboards or promises of overnight domination. Just a better understanding of what customers in North Nottinghamshire search for, a site that answers those questions properly and a steady plan for becoming the obvious local choice.
 
