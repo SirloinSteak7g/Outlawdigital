@@ -1,13 +1,12 @@
 ---
-title: "Rennix Automotive"
+title: "Bayles & Wylie"
 description: "A fast, modern website that makes vehicle storage easy to understand and easy to find locally."
 colour: "graphite"
-website: "rennixautomotive.co.uk"
 draft: true
 ---
 ### The brief
 
-Rennix Automotive wanted a super quick, responsive website that felt modern and made its vehicle storage service easy to understand. It also needed to rank strongly in local search, bringing more relevant visits without paying for advertising.
+Bayles & Wylie wanted a super quick, responsive website that felt modern and made its vehicle storage service easy to understand. It also needed to rank strongly in local search, bringing more relevant visits without paying for advertising.
 
 ### The useful bit
 

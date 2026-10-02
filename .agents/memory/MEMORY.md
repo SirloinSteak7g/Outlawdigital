@@ -1,0 +1,1 @@
+- [Bayles & Wylie naming](bayles-and-wylie-naming.md) — Use the current client name only; omit legacy branding and client-domain references.
