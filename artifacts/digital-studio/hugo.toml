@@ -8,7 +8,7 @@ disableKinds = ["taxonomy", "term"]
 [params]
   studioName = "outlaw digital"
   studioDescriptor = "Independent digital studio in North Nottinghamshire"
-  email = "hello@outlawdigital.co.uk"
+  email = "james@outlawdigital.co.uk"
   phone = "01157 750 587"
   phoneHref = "tel:01157750587"
   location = "North Nottinghamshire · working across the UK"
